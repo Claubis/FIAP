@@ -1,2 +1,130 @@
-arquivio de teste
-Segunda modificação
+Aprender Git e GitHub 
+
+ 
+
+Cadastro do nome: git config --global user.name claubis 
+
+ 
+
+Cadastrar o e-mail: git config --global user.email c...
+
+
+
+Confirmar se deu certo o nome: git config user.mail 
+
+Confirmar se deu certo o e-mail: git config user.email 
+
+ 
+
+Para criar uma pasta nova: mkdir FIAP-git 
+
+ 
+
+Confirmar se e mudar para pasta que desejo: cd FIAP-GIT (nome da pasta) 
+
+Iniciar a pasta: git init 
+
+Mostrar os arquivos presentes na pasta: ls –la 
+
+Conferir o status dos documentos: git status 
+
+Exemplo: 
+
+On branch master – Mostra a Branch principal 
+
+No commits yet – Mostra de houve commits 
+
+Untracked files: 
+
+  (use "git add <file>..." to include in what will be committed) 
+
+        desktop.ini 
+
+        primeiro.txt 
+
+  
+
+nothing added to commit but untracked files present (use "git add" to track) 
+
+ 
+
+Adicionar o na lista os arquivos que preciso comitar: git add primeiro.txt (Nome e extensão do arquivo) 
+
+Git status: 
+
+ 
+
+On branch master 
+
+No commits yet 
+
+Changes to be committed: 
+
+  (use "git rm --cached <file>..." to unstage) 
+
+        new file:   primeiro.txt -- Aqui mostra que foi inserido um arquivo para commit 
+
+  
+
+Untracked files: 
+
+  (use "git add <file>..." to include in what will be committed) 
+
+        Desktop.ini 
+
+Para comitar os arquivos: git commit -m "primeiro.txt" 
+
+Para saber os comits que fizemos: git log 
+
+Vai mostrar a lista com todos os commits e datas 
+
+commit 8145855054fab0974475aead54d0fb (HEAD -> master) -- Preciso desse ID. Aqui eu vou conseguir voltar na versão anterior 
+
+
+Date:   Mon Sep 4 22:06:01 2023 -0300 
+
+Primeiro.txt -- nome do arquivo 
+
+Para voltar a versão que preciso: git show "Colocar o ID aqui, sem as aspas" 
+
+ 
+
+Exemplo de modificações que foram realizadas: $ git log 
+
+commit aaac631958cf6fcfb5c72de964aa2da2 (HEAD -> master) -- primeira 
+
+Date:   Mon Sep 4 22:10:35 2023 -0300 
+
+  
+
+    segunda modificacao 
+
+  
+
+commit 8145855054fab0974475aead54d0fba49294d57b -- segunda 
+
+Author: claubis <claudio_cssp@hotmail.com> 
+
+Date:   Mon Sep 4 22:06:01 2023 -0300 
+
+  
+
+    Primeiro.txt 
+
+ 
+
+Para saber se existe algo pendente: git checkout primeiro.txt 
+
+Updated 0 paths from the index 
+
+ 
+
+Para conectar no GitHub 
+
+git remote add origin https://github.com/Claubis/FIAP.git 
+
+Saber qual origem estamos: git remote 
+
+Para enviar o arquivo: git push -u origin master (Colocar a branch) 
+
+Para confirmar em qual branch estou: git branch 
