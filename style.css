@@ -1,29 +1,47 @@
-img {
-    width: 25%;
-    height: 40%;
-    border-radius: 15%;
-    
+/* Tudo que eu fizer com *, vai aplicar na tela inteira*/
+* {
+    margin: 0 auto;
 }
 
-#primeira {
-
-    width: 30%;
-    background-position: right;
-
+#wrapper {
+    width: 1100px;
+    background-color: grey;
+    padding: 20px 0px;
 }
 
-
-body {
-    background-color: antiquewhite;
-    background-attachment: fixed;
+header {
+    width: 1060px;
+    height: 200px;
+    background-color: rgb(107, 179, 238);
+    margin: 0px 20px 20px 20px;
 }
 
-h1 {
+#carrocel {
+    width: 1060px;
+    height: 100px;
+    background-color: rgb(100, 100, 236);
+    margin: 0px 20px 20px 20px;
     text-align: center;
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    border-radius: 15px;
 }
 
-p {
-    text-align: center;
+.quadrado { 
+    width: 250px;
+    height: 250px;
+    background-color: rgb(177, 176, 176);
+    /* Primeiro bloco é do topo, depois direita(right), baixo(bottom) e esquerda(left) */
+    margin: 0px 0px 20px 20px;
+    /*display: inline-block;*/
+    float: left;
+    border-radius: 15px;
+
+}
+#footer {
+    width: 1060px;
+    height: 100px;
+    background-color: black;
+    margin: 0px 20px 0px 20px;
+    clear: both;
+
 }
