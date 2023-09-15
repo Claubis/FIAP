@@ -1,47 +1,93 @@
-/* Tudo que eu fizer com *, vai aplicar na tela inteira*/
 * {
     margin: 0 auto;
 }
 
-#wrapper {
-    width: 1100px;
-    background-color: grey;
-    padding: 20px 0px;
+#principal {
+    width: 1060px;
+    height: 700px;
+    background-color: #97f7cd;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 header {
     width: 1060px;
-    height: 200px;
-    background-color: rgb(107, 179, 238);
-    margin: 0px 20px 20px 20px;
-}
-
-#carrocel {
-    width: 1060px;
-    height: 100px;
-    background-color: rgb(100, 100, 236);
-    margin: 0px 20px 20px 20px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+    align-items: center;
+    margin-bottom: 20px;
     text-align: center;
-    font-size: 70px;
-    border-radius: 15px;
+    
+    
 }
 
-.quadrado { 
-    width: 250px;
-    height: 250px;
-    background-color: rgb(177, 176, 176);
-    /* Primeiro bloco é do topo, depois direita(right), baixo(bottom) e esquerda(left) */
-    margin: 0px 0px 20px 20px;
-    /*display: inline-block;*/
-    float: left;
-    border-radius: 15px;
-
-}
-#footer {
+.navegacao { 
     width: 1060px;
-    height: 100px;
-    background-color: black;
-    margin: 0px 20px 0px 20px;
-    clear: both;
+    height: 40px;
+    background-color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+main {
+    width: 600px;
+    height: 440px;
+    background-color: antiquewhite;
+    margin-left: 0px;
+    float: left;
+    margin-right: 20px;
+       
+
+}
+
+aside {
+    width: 440px;
+    height: 440px;
+    background-color: antiquewhite;
+    float: left;
+    
+}
+
+.foto {
+    width: 440px;
+    height: 440px;
+}
+
+p {
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+section {
+    width: 580px;
+    height: 40px;
+    background-color: grey;
+    margin-top: 45%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+footer {
+    width: 1060px;
+    height: 80px;
+    background-color: antiquewhite;
+    margin-top: 45%;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 0px;
+    line-height: 70px;
 
 }
