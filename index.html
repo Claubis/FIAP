@@ -1,36 +1,35 @@
+<!-- Crirar uma navegação com objetivo de atender as pessoas com deficiência visual-->
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <title>Leitura de Texto por Áudio</title>
 </head>
 <body>
-    <div id="principal">
-        
-        <header id="cabecalho"> Minha página principal </header>
-        
-        <nav class="navegacao">
-            <a href="" >Acesse o Google </a>
-        </nav>
+    <h1> Trabalhar com listas e texo por voz </h1>
+    <ul>
+        <li id="Menu"> Menu </li>
+        <li> Contatos </li>
+        <li> Mais sobre a página </li>
+        <li> Marcadores </li>
+    </ul>
 
-        <main> 
-
-            <article> 
-                <img src="" >
-                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, cupiditate! Quaerat dolorem error velit recusandae cupiditate consequatur natus delectus saepe sunt accusantium, et est quos odit reprehenderit dignissimos consequuntur aut!</p>
-            </article>
-            <section> Section </section>
-        </main>  
-        
-        <aside>
-            <img class="foto" src="IMG/il_fullxfull.3159366028_mzq5 (1).jpg" alt="Foto de anime">    
-        </aside>     
-
-
-        <footer> Criado por Claudio </footer>
+    <div id="texto">
+        <p>Texto que será lido por áudio quando o usuário passar o mouse sobre ele.</p>
     </div>
-    
+
+    <script>
+        var textoParaFala = document.getElementById('texto');
+
+        textoParaFala.addEventListener('mouseover', function() {
+            var texto = this.innerText;
+            var utterance = new SpeechSynthesisUtterance(texto);
+
+            window.speechSynthesis.speak(utterance);
+        });
+    </script>
+
+
 </body>
 </html>
