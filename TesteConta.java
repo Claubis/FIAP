@@ -1,20 +1,26 @@
-package aula_4;
+package cp01;
+
+import java.util.Scanner;
 
 public class TesteConta {
+	
 	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
 		
-		// Abrir a conta
-		Conta cliente1 = new Conta("Claudio", "1090-5", "1010-10");
-		cliente1.exibirDados();
+		Conta c1 = new Conta("Claudio", "123456");
+		System.out.println("Cliente: " + c1.getNome());
+		System.out.println("Conta: " + c1.getConta());
+		System.out.println("Saldo: " + c1.getSaldo());
 		
-		//Realizar o depósito na conta
-		cliente1.depositar(500);
+		c1.depositar();
+		System.out.println("Saldo atual: " + c1.getDeposito());
 		
-		// Verificar se o saldo foi alterado
-		System.out.println("saldo: " + cliente1.getSaldo());
+		c1.sacar();
+		System.out.println("Saldo atual: " + c1.getSaque());
 		
-		// Realizar um saque e consultar o saldo
-		cliente1.sacar(400);
-		System.out.println("Saque: " + cliente1.getSaldo());
+		c1.transferir();
+		System.out.println("Saldo atual: " + c1.getTransferir());
 	}
+	
+
 }

@@ -1,86 +1,106 @@
-package aula_4;
+package cp01;
 
-// Criar meu processo de conta corrente;
-// Lembrando que aqui eu não rodo/testo, preciso criar o teste;
+import java.util.Scanner;
+
 public class Conta {
+	Scanner input = new Scanner(System.in);
+	float deposito;
+	float saque;
+	float transferir;
 	
 	// Atributos
-	private String titular;
-	private String agencia;
-	private String conta;
-	private float saldo;
+	public String nome;
+	public String conta;
+	public float saldo;
 	
-	// Construtor
-	public Conta(String titular, String agencia, String conta) {
-		this.titular = titular;
-		this.agencia = agencia;
+	// Construtor parametrizado
+	public Conta(String nome, String conta) {
+		this.nome = nome;
 		this.conta = conta;
-		
-	}
-	
-	// Criar os Getters and Setters
-	
-	public String getTitular() {
-		return titular;
+		this.saldo = 0;
 	}
 
-
-
-	public void setTitular(String titular) {
-		this.titular = titular;
+	public String getNome() {
+		return nome;
 	}
 
-
-
-	public String getAgencia() {
-		return agencia;
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
-
-
-
-	public void setAgencia(String agencia) {
-		this.agencia = agencia;
-	}
-
-
 
 	public String getConta() {
 		return conta;
 	}
 
-
-
 	public void setConta(String conta) {
 		this.conta = conta;
 	}
-	
-	// Preciso criar só o get de saldo, pois preciso buscar a informação no sistema e mostrar em tela.
+
 	public float getSaldo() {
 		return saldo;
 	}
 
-	
-
-	// Método 1
-	public float depositar(float valor) {
-		this.saldo += valor; // mesma coisa que saldo = saldo + valor;
-		return saldo;
+	public void setSaldo(float saldo) {
+		this.saldo = saldo;
 	}
 	
-	//Método 2
-	public float sacar(float valor) {
-		this.saldo -= valor; // mesma coisa que fazer saldo = saldo - valor;
-		return saldo;
+	
+	
+	public float getDeposito() {
+		return deposito;
+	}
+
+	public void setDeposito(float deposito) {
+		this.deposito = deposito;
+	}
+
+	public float getSaque() {
+		return saque;
+	}
+
+	public void setSaque(float saque) {
+		this.saque = saque;
+	}
+
+	public float getTransferir() {
+		return transferir;
+	}
+
+	public void setTransferir(float transferir) {
+		this.transferir = transferir;
+	}
+
+	// Métodos que vou utilizar
+	
+	// Depositar
+	public float depositar() {
+		deposito = input.nextFloat();
+		return saldo + deposito;
 			
 		}
 	
-	
-	// Exibir dados
-		public void exibirDados() {
-			System.out.println("Titular: " + getTitular());
-			System.out.println("Agência: " + getAgencia());
-			System.out.println("Conta: " + getConta());
-			System.out.println("Saldo: " + getSaldo());
-		}
+	// Sacar
+	public float sacar() {
+		saque = input.nextFloat();
+		if(this.saldo < 0) {
+			System.out.println("Você não possui saldo!");
+		}else (this.saldo > 0) {
+			System.out.println("Seu saldo agora é: ");
+		
+	}
 
-}
+	// Transferir
+	public float transferir() {
+		transferir = input.nextFloat();
+		return saldo - transferir;				
+			}
+	
+	// Método para mostrar os dados da conta
+	public void exibirDados(String nome, String conta, float saldo) {
+		System.out.println("Cliente: " + getNome());
+		System.out.println("Conta: " + getConta());
+		System.out.println("Saldo: " + getSaldo());
+		}
+	}
+	
+
