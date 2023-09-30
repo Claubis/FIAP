@@ -8,3 +8,5 @@ Estamos utilizando as ferramentas:
 4. ChatBOT da IBM - Watson
 5. Draw.IO
 6. Jupyter para análise de dados usando Python
+7. Figma: para criar o layout
+8. Node Red
