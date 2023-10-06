@@ -1,35 +1,89 @@
-<!-- Crirar uma navegação com objetivo de atender as pessoas com deficiência visual-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leitura de Texto por Áudio</title>
+    <title>Formulário</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <h1> Trabalhar com listas e texo por voz </h1>
-    <ul>
-        <li id="Menu"> Menu </li>
-        <li> Contatos </li>
-        <li> Mais sobre a página </li>
-        <li> Marcadores </li>
-    </ul>
+    <!-- Existe três elementos que vamos usar: name, action(para onde vamos enviar as infomrações), method: como vamos enviar as informações (get ou post) -->
+    <form name="frmCadastro" action="obrigado.html" method="GET" enctype="multipart/form-data"> <!--Se eu não definir um method, automáticamente será um get -->
+        <!-- enctype="multipart/form-data foi insrido para aplicarmos imagens-->
 
-    <div id="texto">
-        <p>Texto que será lido por áudio quando o usuário passar o mouse sobre ele.</p>
-    </div>
+        <label for="strNome"> Nome: </label>
 
-    <script>
-        var textoParaFala = document.getElementById('texto');
+        <input type="text" name="strNome" id="strNome" maxlength="100" accesskey="n"> <!-- Para limitar a quantidade de caracteres mxlenth-->
+        <!-- Colocar tecla de atalho no formulário accsskey-->
+        
+        <br>
 
-        textoParaFala.addEventListener('mouseover', function() {
-            var texto = this.innerText;
-            var utterance = new SpeechSynthesisUtterance(texto);
+        <label for="pwdSenha">
 
-            window.speechSynthesis.speak(utterance);
-        });
-    </script>
+            Senha:
+            <input type="text" name="pwdSenha" id="pwdSenha" maxlength="12">
+        </label> 
 
+        <br>
+
+        <label for="email">
+            E-mail:
+            <input type="email" name="textEmail" id="txtEmail" >
+
+        </label>
+
+        <br>
+
+        <label for="telefone">
+            Telefone:
+            <input type="tel" name="textTel" id="txtTel" >
+
+        </label>
+
+        <br>
+
+        <label for="textCPF">
+            CPF:
+            <input type="number" name="textCPF" id="txtCPF" maxlength="11" >
+
+        </label>
+
+        <input type="submit">
+
+        <br>
+        <br>
+
+        <label for="fileFoto">
+            Foto:
+            <input type="file" name="fileFoto" id="fileFoto" accept="image\*">
+        </label>
+
+        <br>
+        <br>
+
+        <label>
+            Sexo:
+            <input type="radio" name="sexo" id="sexoM" value="M"> Masculino
+        </label>
+        <label>
+            <input type="radio" name="sexo" id="sexoF" value="F"> Feminino
+        </label>
+
+        <br>
+        <br>
+
+        <label> Preferência culinária: </label>
+        <br>
+        <label> <input type="checkbox" name="chkCulinaria" id="chkculinaria" value="Japonesa"> Japonesa</label>
+        <br>
+        <label> <input type="checkbox" name="chkCulinaria" id="chkculinaria" value="McDonalds"> Mc Donalds</label>
+        <br>
+        <label> <input type="checkbox" name="chkCulinaria" id="chkculinaria" value="Pizza"> Pizza </label>
+
+        </label>
+
+
+    </form>
 
 </body>
 </html>
