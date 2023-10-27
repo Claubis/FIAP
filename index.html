@@ -3,87 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
-    <link rel="stylesheet" href="CSS/style.css">
-</head>
-<body>
-    <!-- Existe três elementos que vamos usar: name, action(para onde vamos enviar as infomrações), method: como vamos enviar as informações (get ou post) -->
-    <form name="frmCadastro" action="obrigado.html" method="GET" enctype="multipart/form-data"> <!--Se eu não definir um method, automáticamente será um get -->
-        <!-- enctype="multipart/form-data foi insrido para aplicarmos imagens-->
+    <title>Document</title>
 
-        <label for="strNome"> Nome: </label>
+    <script>
+        /*
+        alert("Hello Wold"); // usar para enviar um recado, falta de preenchimento de dados, logout, finalizar compra.
 
-        <input type="text" name="strNome" id="strNome" maxlength="100" accesskey="n"> <!-- Para limitar a quantidade de caracteres mxlenth-->
-        <!-- Colocar tecla de atalho no formulário accsskey-->
+        document.write("Hello world, que dia Feliz! \o/s");
         
-        <br>
+        // criar variavel e aplicar no alert
+        texto = "Olá, tudo bem?";
+        alert(texto);
 
-        <label for="pwdSenha">
+        texto = 123; // Agora posso trocar além do tipo da variavel e o conteúdo.
+        alert(texto);
 
-            Senha:
-            <input type="text" name="pwdSenha" id="pwdSenha" maxlength="12">
-        </label> 
+        */
+        // Funções
 
-        <br>
+        function bemvindo() {
+            alert("Bem vindo(a) ao nosso site!");
+        }
 
-        <label for="email">
-            E-mail:
-            <input type="email" name="textEmail" id="txtEmail" >
+        //  Para rodar a função
+        bemvindo()
 
-        </label>
+        function login() {
+            alert("Clique em enviar para fazer o login");
+        }
 
-        <br>
 
-        <label for="telefone">
-            Telefone:
-            <input type="tel" name="textTel" id="txtTel" >
 
-        </label>
+        function senha() {
+            alert("Preencha sua senha para finalizar.");
+        }
 
-        <br>
+    
 
-        <label for="textCPF">
-            CPF:
-            <input type="number" name="textCPF" id="txtCPF" maxlength="11" >
+        function loginEfetuado() {
+            alert("Login efetuado com sucesso!");
+        }
 
-        </label>
+        function mudarCor(){
+            document.body.style.backgroundColor="blue";
+        }
 
-        <input type="submit">
-
-        <br>
-        <br>
-
-        <label for="fileFoto">
-            Foto:
-            <input type="file" name="fileFoto" id="fileFoto" accept="image\*">
-        </label>
-
-        <br>
-        <br>
-
-        <label>
-            Sexo:
-            <input type="radio" name="sexo" id="sexoM" value="M"> Masculino
-        </label>
-        <label>
-            <input type="radio" name="sexo" id="sexoF" value="F"> Feminino
-        </label>
-
-        <br>
-        <br>
-
-        <label> Preferência culinária: </label>
-        <br>
-        <label> <input type="checkbox" name="chkCulinaria" id="chkculinaria" value="Japonesa"> Japonesa</label>
-        <br>
-        <label> <input type="checkbox" name="chkCulinaria" id="chkculinaria" value="McDonalds"> Mc Donalds</label>
-        <br>
-        <label> <input type="checkbox" name="chkCulinaria" id="chkculinaria" value="Pizza"> Pizza </label>
-
-        </label>
-
+        
+    </script>
+</head>
+<body onload="">
+    
+    <form>
+        
+        Nome<input type="text" id="txtNome" name="txtNome" onchange="senha(this.value)">
+        senha<input type="text" id="txtSenha" name="textSenha" onchange="login(this.value)">
 
     </form>
+    <!-- Eventos -->
+    <!-- Ctrl + k + c para comentar um texto -->
+     <!-- usar o on e depois a palavra de ação que precisa executar. -->
+    <input type="button" onclick="mudarCor()" value="Mudar cor"></input>
 
 </body>
 </html>
