@@ -1,0 +1,75 @@
+const novaSenhaElem = document.getElementById('pw');
+const copyElem = document.getElementById('copy');
+const lenElem = document.getElementById('length');
+const upperElem = document.getElementById('uppercase');
+const lowerElem = document.getElementById('lowercase');
+const numberElem = document.getElementById('numbers');
+const symbolElem = document.getElementById('symbols');
+const generateElem = document.getElementById('generate');
+ 
+const upperLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";//26
+const lowerLetters = "abcdefghijklmnopqrstuvwxyz";//26
+const number = "0123456789";//10
+const symbols = "!@#$%^&*()_+=-[]{};:',.<>?/|`~";//30
+ 
+function getUpperCase(){
+    return upperLetters[Math.floor(Math.random() * upperLetters.length)];
+}
+function getLowerCase(){
+    return lowerLetters[Math.floor(Math.random() * lowerLetters.length)];
+}
+ 
+function getNumber(){
+    return number[Math.floor(Math.random() * number.length)];
+}
+function getSymbol(){
+    return symbols[Math.floor(Math.random() * symbols.length)];
+}
+ 
+function generatePassword(){
+    const len = lenElem.value;
+    let password = "";
+ 
+    for(i=0; i<len; i++){
+        const x = generateX();
+        password += x // password = password + x
+    }
+    novaSenhaElem.innerText = password;
+ 
+    return password
+}
+ 
+function generateX(){
+    const xs=[];
+   
+    if(upperElem.checked){
+        xs.push(getUpperCase());
+    }
+    if(lowerElem.checked){
+        xs.push(getLowerCase());
+    }
+    if(numberElem.checked){
+        xs.push(getNumber());
+    }
+    if(symbolElem.checked){
+        xs.push(getSymbol());
+    }
+ 
+    if(xs.length === 0) return "";
+    return xs[Math.floor(Math.random() * xs.length)]
+   
+}
+ 
+generateElem.addEventListener("click",generatePassword)
+ 
+copyElem.addEventListener("click",()=>{
+    let password = "";
+   // alert(password);
+    if (novaSenhaElem.innerText == "Nova Senha"){
+         password="";
+    }
+    else{
+         password = navigator.clipboard.writeText(novaSenhaElem.innerText);
+    }
+    return password;
+})
