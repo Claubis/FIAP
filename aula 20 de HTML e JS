@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equi="X-U-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="pw-container">
+        <header class="pw-header">
+            <span id="pw"> Nova senha </span>
+            <button id="copy"> Copiar </button>
+
+        </header>
+     <div class="pw-body">
+        <div class="form-control">
+            <label for="length"> Tamanho da senha </label>
+            <input type="number" id="length" value="10" min="8" max="30">
+        
+        </div>
+        <div class="form-control">
+            <label for="uppercase"> Maiúscula </label>
+            <input type="checkbox" id="uppercase">
+        </div>
+        <div class="form-control">
+            <label for="lowercase"> Minúscula </label>
+            <input type="checkbox" id="lowercase">
+        </div>
+        <div class="form-control">
+            <label for="numbers"> Números </label>
+            <input type="checkbox" id="numbers">
+        </div>
+        <div class="form-control">
+            <label for="symbols"> Simbolos </label>
+            <input type="checkbox" id="symbols">
+        </div>
+        <button class="generate" id="generate"> Gerar senha </button>
+        </div>
+ 
+
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+</html>
