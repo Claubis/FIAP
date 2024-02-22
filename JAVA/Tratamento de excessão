@@ -1,0 +1,94 @@
+public class Excecoes { 
+
+public static void main(String[] args) { 
+int a, b, result; 
+
+try { 
+a = 40; b = 0; result = a/b; 
+System.out.println("Resultado: " + result); 
+} catch (ArithmeticException e) 
+
+{ System.err.println("Divisão por ZERO!" + e.getMessage()); 
+} 
+
+finally { 
+System.out.println("FINALLY"); } 
+
+System.out.printf("Fora do bloco try-catch"); 
+} 
+}
+
+import java.util.Random; 
+
+public class Excecoes { 
+public static void main(String[] args) { 
+int a = 0, b = 0, c = 0; Random r = new Random(); 
+
+for(int i=1; i <= 10; i++) { 
+try { 
+b = r.nextInt(); c = r.nextInt(); 
+
+System.out.println("Execução " + i); 
+
+System.out.printf("B: %d,\nC: %d\n", b, c); a = 1234 / (b/c); 
+
+System.out.println("A: " + a); 
+} catch (ArithmeticException e) { 
+
+System.err.println("ERRO! Exemplo2.main"); e.printStackTrace(); 
+} finally { 
+
+System.out.println("Fim da execução"); 
+} 
+} 
+} 
+}
+
+
+import java.util.InputMismatchException; 
+
+import java.util.Scanner; 
+
+public class Excecoes { 
+public static int calculaQuociente(int num, int den) throws ArithmeticException { 
+return num/den; 
+} 
+
+public static void main(String[] args) { 
+Scanner input = new Scanner(System.in); boolean continua = true; 
+
+do { 
+try { 
+
+System.out.print("Numerador: "); 
+
+int num = input.nextInt(); 
+
+System.out.print("Denominador: "); 
+
+int den = input.nextInt(); 
+int resultado = calculaQuociente(num, den); 
+continua = false; 
+
+System.out.println("Resultado: " + resultado); 
+} catch (ArithmeticException e) { 
+
+System.err.println("Divisão por ZERO!"); e.printStackTrace(); 
+} catch (InputMismatchException e) { 
+
+System.err.println("Não é permitido inserir letras, digite um número."); 
+} catch (NullPointerException e) { 
+
+System.err.println("Objeto Nulo"); 
+} finally { 
+
+System.out.println("Execução completa!"); 
+} 
+
+input.nextLine(); } 
+
+while(continua); 
+
+input.close(); 
+} 
+}    
