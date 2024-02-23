@@ -1,68 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <script>
-        /*
-        alert("Hello Wold"); // usar para enviar um recado, falta de preenchimento de dados, logout, finalizar compra.
-
-        document.write("Hello world, que dia Feliz! \o/s");
-        
-        // criar variavel e aplicar no alert
-        texto = "Olá, tudo bem?";
-        alert(texto);
-
-        texto = 123; // Agora posso trocar além do tipo da variavel e o conteúdo.
-        alert(texto);
-
-        */
-        // Funções
-
-        function bemvindo() {
-            alert("Bem vindo(a) ao nosso site!");
-        }
-
-        //  Para rodar a função
-        bemvindo()
-
-        function login() {
-            alert("Clique em enviar para fazer o login");
-        }
-
-
-
-        function senha() {
-            alert("Preencha sua senha para finalizar.");
-        }
-
-    
-
-        function loginEfetuado() {
-            alert("Login efetuado com sucesso!");
-        }
-
-        function mudarCor(){
-            document.body.style.backgroundColor="blue";
-        }
-
-        
-    </script>
-</head>
-<body onload="">
-    
-    <form>
-        
-        Nome<input type="text" id="txtNome" name="txtNome" onchange="senha(this.value)">
-        senha<input type="text" id="txtSenha" name="textSenha" onchange="login(this.value)">
-
-    </form>
-    <!-- Eventos -->
-    <!-- Ctrl + k + c para comentar um texto -->
-     <!-- usar o on e depois a palavra de ação que precisa executar. -->
-    <input type="button" onclick="mudarCor()" value="Mudar cor"></input>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
