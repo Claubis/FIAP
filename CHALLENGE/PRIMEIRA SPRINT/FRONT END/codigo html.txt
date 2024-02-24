@@ -1,0 +1,184 @@
+
+    estiloXS.css
+​
+    @media screen and (max-width: 600px) {​​
+    *{​​
+        margin:0;
+        padding:0;
+    }​​
+    body{​​
+        background-color: aqua;
+    }​​
+    header{​​
+        width:100vw;
+        height: 200px;
+        background-color:#ccc;
+    }​​
+}​​
+
+    estiloXL.css
+@media screen and (min-width: 1201px) {​​
+    *{​​
+        margin:0 auto;
+        padding:0;
+    }​​
+    body{​​
+        background-color: #0f0;
+    }​​
+    header{​​
+        width:100vw;
+        height: 150px;
+        background-color:#E4AA0B;
+    }​​
+    #top{​​
+        background-color: #832728;
+        padding: 5px 0;
+        text-align: right;
+    }​​
+    #top a{​​
+        color:#fff;
+        text-decoration: none;
+        font-family: arial;
+    }​​
+    .content{​​
+        width: 95vw;
+    }​​
+}​​
+​[22:37] Adriano Kleber Milanez
+    estiloLG.css
+@media screen and (min-width: 992px) and (max-width:1200px) {​​
+    *{​​
+        margin:0 auto;
+        padding:0;
+    }​​
+    body{​​
+        background-color: #036;
+    }​​
+    header{​​
+        width:100vw;
+        height: 150px;
+        background-color:#E4AA0B;
+    }​​
+    #top{​​
+        background-color: #832728;
+        padding: 5px 0;
+        text-align: right;
+    }​​
+    #top a{​​
+        color:#fff;
+        text-decoration: none;
+        font-family: arial;
+    }​​
+    .content{​​
+        width: 95vw;
+    }​​
+}​​
+​[22:37] Adriano Kleber Milanez
+    estiloXs.css
+​[22:37] Adriano Kleber Milanez
+    @media screen and (max-width: 600px) {​​
+    *{​​
+        margin:0 auto;
+        padding:0;
+    }​​
+    body{​​
+        background-color: aqua;
+    }​​
+    header{​​
+        width:100vw;
+        height: 150px;
+        background-color:#E4AA0B;
+    }​​
+    #top{​​
+        background-color: #832728;
+        padding: 5px 0;
+        text-align: right;
+    }​​
+    #top a{​​
+        color:#fff;
+        text-decoration: none;
+        font-family: arial;
+    }​​
+    .content{​​
+        width: 95vw;
+    }​​
+}​​
+​[22:38] Adriano Kleber Milanez
+    estiloMD.css
+@media screen and (max-width: 600px) {​​
+    *{​​
+        margin:0 auto;
+        padding:0;
+    }​​
+    body{​​
+        background-color: aqua;
+    }​​
+    header{​​
+        width:100vw;
+        height: 150px;
+        background-color:#E4AA0B;
+    }​​
+    #top{​​
+        background-color: #832728;
+        padding: 5px 0;
+        text-align: right;
+    }​​
+    #top a{​​
+        color:#fff;
+        text-decoration: none;
+        font-family: arial;
+    }​​
+    .content{​​
+        width: 95vw;
+    }​​
+}​​
+​[22:38] Adriano Kleber Milanez
+    estiloSM.css
+@media screen and (min-width: 600px) and (max-width:768px) {​​
+    *{​​
+        margin:0 auto;
+        padding:0;
+    }​​
+    body{​​
+        background-color: #f00;
+    }​​
+    header{​​
+        width:100vw;
+        height: 150px;
+        background-color:#E4AA0B;
+    }​​
+    #top{​​
+        background-color: #832728;
+        padding: 5px 0;
+        text-align: right;
+    }​​
+    #top a{​​
+        color:#fff;
+        text-decoration: none;
+        font-family: arial;
+    }​​
+    .content{​​
+        width: 95vw;
+    }​​
+}​​
+​[22:46] Adriano Kleber Milanez
+    <div class="content">
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+    </div>
+​[22:46] Adriano Kleber Milanez
+    
+.quadrado{​​    width:248px;    height: 250px;    border:1px solid #000;    border-radius:5px;    background-color:#fafad2;    margin:0px 0px 20px 20px;/* top rigth bottom left */    float:left;}​​
+​[22:53] Adriano Kleber Milanez
+    .quadrado{​​
+        width:100%;
+        height: 250px;
+        border:1px solid #000;
+        border-radius:5px;
+        background-color:#fafad2;
+        margin-bottom: 15px;
+    }​​
+<https://teams.microsoft.com/l/message/19:174f6b65ee1e468ebfd2c681121b591e@thread.tacv2/1697506648632?tenantId=11dbbfe2-89b8-4549-be10-cec364e59551&amp;groupId=8a920b05-eec3-4cd0-a64f-e7236e2fd039&amp;parentMessageId=1697501832884&amp;teamName=1TDSPT-2023&amp;channelName=Responsive Web Development&amp;createdTime=1697506648632&amp;allowXTenantAccess=false>
