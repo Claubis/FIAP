@@ -1,0 +1,3957 @@
+{
+  "intents": [
+    {
+      "intent": "Alterar_Cadastro",
+      "examples": [
+        {
+          "text": "Como alterar meu cadastro?"
+        },
+        {
+          "text": "Como faço para alterar meu cadastro na Sales Force?"
+        },
+        {
+          "text": "Como faço para editar as informações no meu perfil da Sales Force?"
+        },
+        {
+          "text": "Como posso garantir que minhas alterações de cadastro foram salvas corretamente?"
+        },
+        {
+          "text": "É possível modificar os dados do meu cadastro na Sales Force?"
+        },
+        {
+          "text": "Existe um formulário específico para alterações de cadastro na Sales Force?"
+        },
+        {
+          "text": "Gostaria de alterar meu cadastro"
+        },
+        {
+          "text": "Onde posso encontrar a opção de alterar meu cadastro na Sales Force?"
+        },
+        {
+          "text": "Posso alterar meu cadastro?"
+        },
+        {
+          "text": "Posso fazer atualizações no meu cadastro a qualquer momento?"
+        },
+        {
+          "text": "Preciso entrar em contato com o suporte para alterar meu cadastro?"
+        },
+        {
+          "text": "Preciso mexer no cadastro"
+        },
+        {
+          "text": "Quais campos posso modificar no meu cadastro na Sales Force?"
+        },
+        {
+          "text": "Quais são as opções disponíveis para alterar meu perfil na Sales Force?"
+        },
+        {
+          "text": "Quais são os passos para atualizar minhas informações de cadastro?"
+        },
+        {
+          "text": "Quais são os requisitos para efetuar alterações no meu cadastro da Sales Force?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Aprendizado",
+      "examples": [
+        {
+          "text": "Aprendizado"
+        },
+        {
+          "text": "Como acessar a guia de aprendizado da Sales Force?"
+        },
+        {
+          "text": "Como aprender com a Sales Force na guia de aprendizado?"
+        },
+        {
+          "text": "Como a Sales Force pode me auxiliar no meu processo de aprendizado?"
+        },
+        {
+          "text": "Como faço para aprender com a Sales Force na guia de aprendizado?"
+        },
+        {
+          "text": "Como faço para aprender sobre os produtos?"
+        },
+        {
+          "text": "Como funciona a parte de aprendizado da Sales Force?"
+        },
+        {
+          "text": "Como posso acessar a guia de aprendizado da Sales Force?"
+        },
+        {
+          "text": "Como posso acessar o sistema de aprendizado da Sales Force?"
+        },
+        {
+          "text": "Como posso aprender com a sales force"
+        },
+        {
+          "text": "Como posso aprimorar minhas habilidades com a ajuda da Sales Force?"
+        },
+        {
+          "text": "Onde posso encontrar tutoriais e cursos na Sales Force?"
+        },
+        {
+          "text": "O que posso aprender com a sales force?"
+        },
+        {
+          "text": "Poderia me indicar onde encontrar materiais de aprendizado na Sales Force?"
+        },
+        {
+          "text": "Quais recursos de aprendizado a Sales Force oferece?"
+        },
+        {
+          "text": "Quais são as ferramentas de aprendizado mais úteis fornecidas pela Sales Force?"
+        },
+        {
+          "text": "Quais são as formas mais eficazes de aprender com a Sales Force?"
+        },
+        {
+          "text": "Quais são as opções de treinamento disponíveis na Sales Force?"
+        },
+        {
+          "text": "Quais são os temas abordados nos materiais de aprendizado da Sales Force?"
+        }
+      ],
+      "description": "Falar sobre o metodo de aprendizado da sales force"
+    },
+    {
+      "intent": "Cadastro",
+      "examples": [
+        {
+          "text": "Como acessar a página de cadastro na Sales Force?"
+        },
+        {
+          "text": "Como faço para me cadastrar como cliente na Sales Force?"
+        },
+        {
+          "text": "Como fazer o processo de cadastro na pagina?"
+        },
+        {
+          "text": "Como me cadastrar?"
+        },
+        {
+          "text": "Como posso realizar um cadastro na Sales Force?"
+        },
+        {
+          "text": "Como realizar meu cadastro?"
+        },
+        {
+          "text": "Existe alguma taxa associada ao processo de cadastro na Sales Force?"
+        },
+        {
+          "text": "Gostaria de me cadastrar"
+        },
+        {
+          "text": "Onde posso encontrar o formulário de cadastro na Sales Force?"
+        },
+        {
+          "text": "O que acontece após eu completar o cadastro na Sales Force?"
+        },
+        {
+          "text": "O que é necessário para completar o processo de cadastro na Sales Force?"
+        },
+        {
+          "text": "Posso atualizar minhas informações de cadastro na Sales Force a qualquer momento?"
+        },
+        {
+          "text": "Posso realizar meu cadastro?"
+        },
+        {
+          "text": "Quais informações são necessárias para criar uma conta na Sales Force?"
+        },
+        {
+          "text": "Quais são os campos obrigatórios para o cadastro na Sales Force?"
+        },
+        {
+          "text": "Qual é o passo a passo para criar uma conta na Sales Force?"
+        },
+        {
+          "text": "Qual é o procedimento para se cadastrar na Sales Force?"
+        },
+        {
+          "text": "Quero me cadastrar"
+        },
+        {
+          "text": "Quero me Cadastrar no site"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Clientes",
+      "examples": [
+        {
+          "text": "Clientes"
+        },
+        {
+          "text": "Clientes sales force"
+        },
+        {
+          "text": "Gostaria de saber mais sobre os clientes atendidos pela Sales Force."
+        },
+        {
+          "text": "Me fale sobre o cliente da Sales Force."
+        },
+        {
+          "text": "Pode compartilhar informações sobre cases de sucesso da Sales Force?"
+        },
+        {
+          "text": "Pode me dar exemplos de clientes da Sales Force?"
+        },
+        {
+          "text": "Pode me falar mais sobre os clientes da Sales Force?"
+        },
+        {
+          "text": "Quais empresas que são indústrias a Sales Force atende principalmente?"
+        },
+        {
+          "text": "Quais empresas são parceiras da Sales Force?"
+        },
+        {
+          "text": "Quais empresas têm utilizado os serviços da Sales Force?"
+        },
+        {
+          "text": "Quais organizações têm obtido benefícios com os serviços da Sales Force?"
+        },
+        {
+          "text": "Quais são alguns dos clientes notáveis da Sales Force?"
+        },
+        {
+          "text": "Quais são os clientes da sales force?"
+        },
+        {
+          "text": "Quais são os principais clientes?"
+        },
+        {
+          "text": "Quais são os principais clientes da Sales Force?"
+        },
+        {
+          "text": "Quais setores são atendidos pela Sales Force?"
+        },
+        {
+          "text": "Quem são os clientes da sales force"
+        },
+        {
+          "text": "Quem são os clientes da Sales Force?"
+        },
+        {
+          "text": "Quem são os clientes Sales force?"
+        }
+      ],
+      "description": "Falar sobre os clientes da Sales Force"
+    },
+    {
+      "intent": "Empresa",
+      "examples": [
+        {
+          "text": "Conte-me sobre a Sales Force"
+        },
+        {
+          "text": "Estou interessado em conhecer a história da Sales Force."
+        },
+        {
+          "text": "Gostaria de entender mais sobre a cultura corporativa da Sales Force."
+        },
+        {
+          "text": "Gostaria de saber mais informações sobre a Sales Force, por favor."
+        },
+        {
+          "text": "Me fale sobre a salea force"
+        },
+        {
+          "text": "Me fale sobre a Sales force"
+        },
+        {
+          "text": "Me fale sobre a Sales Force."
+        },
+        {
+          "text": "O que a Sales Force faz e qual é a sua especialidade?"
+        },
+        {
+          "text": "O que é a sales force"
+        },
+        {
+          "text": "O que é a Sales Force?"
+        },
+        {
+          "text": "Pode me contar mais sobre a empresa Sales Force?"
+        },
+        {
+          "text": "Poderia fornecer informações sobre a fundação da Sales Force?"
+        },
+        {
+          "text": "Poderia me falar sobre os fundadores da Sales Force?"
+        },
+        {
+          "text": "Quais os valores e visão da empresa Sales Force?"
+        },
+        {
+          "text": "Quais são os detalhes sobre a empresa Sales Force?"
+        },
+        {
+          "text": "Quais são os principais objetivos da empresa Sales Force?"
+        },
+        {
+          "text": "Qual é a história e missão da Sales Force?"
+        },
+        {
+          "text": "Quem é a sales force?"
+        },
+        {
+          "text": "Quero saber o que diferencia a Sales Force de outras empresas do setor."
+        }
+      ],
+      "description": "Apresentar sobre a empresa Sales force"
+    },
+    {
+      "intent": "Feedback",
+      "examples": [
+        {
+          "text": "A interface do usuário dos produtos é intuitiva e fácil de usar."
+        },
+        {
+          "text": "A Sales Force demonstrou um compromisso notável com a satisfação do cliente."
+        },
+        {
+          "text": "A Sales Force superou minhas expectativas em termos de qualidade."
+        },
+        {
+          "text": "Cadastrar feedback"
+        },
+        {
+          "text": "Como abro um processo de feedback?"
+        },
+        {
+          "text": "Como cadastrar um elogio?"
+        },
+        {
+          "text": "Como faço para criar um feedback?"
+        },
+        {
+          "text": "Criar um elogio"
+        },
+        {
+          "text": "Criar um feedback"
+        },
+        {
+          "text": "Encontrei os recursos adicionais dos produtos da Sales Force muito úteis."
+        },
+        {
+          "text": "Estou impressionado com a inovação contínua dos produtos da Sales Force."
+        },
+        {
+          "text": "Estou satisfeito com a eficiência do suporte técnico da Sales Force."
+        },
+        {
+          "text": "Gostaria de compartilhar minha experiência positiva com os produtos da Sales Force."
+        },
+        {
+          "text": "O processo de compra foi suave e sem complicações."
+        },
+        {
+          "text": "Os produtos oferecidos pela Sales Force atenderam plenamente às minhas expectativas."
+        },
+        {
+          "text": "Posso abrir um elogio?"
+        },
+        {
+          "text": "Preciso inserir um elogio"
+        },
+        {
+          "text": "Preciso realizar um feedback"
+        },
+        {
+          "text": "Preciso registrar um feedback"
+        },
+        {
+          "text": "Quero cadastrar um elogio"
+        },
+        {
+          "text": "Quero cadastrar um feedback"
+        },
+        {
+          "text": "Quero expressar minha gratidão pela entrega pontual dos serviços contratados."
+        },
+        {
+          "text": "Recebi suporte proativo da equipe de atendimento ao cliente."
+        },
+        {
+          "text": "Recebi um excelente atendimento ao cliente da equipe da Sales Force."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Formularios",
+      "examples": [
+        {
+          "text": "Como faço para preencher o formulário?"
+        },
+        {
+          "text": "Como preencho o formulário de contato na Sales Force?"
+        },
+        {
+          "text": "Como recebo uma confirmação após enviar o formulário de contato?"
+        },
+        {
+          "text": "Gostaria de saber como enviar minhas dúvidas através do formulário da Sales Force."
+        },
+        {
+          "text": "O formulário de contato é a melhor maneira de solicitar suporte na Sales Force?"
+        },
+        {
+          "text": "Onde posso encontrar o formulário de contato no site da Sales Force?"
+        },
+        {
+          "text": "Pode me ajudar a preencher o formulário?"
+        },
+        {
+          "text": "Poderia me indicar o link para o formulário de contato na Sales Force?"
+        },
+        {
+          "text": "Por onde acessar o formulário?"
+        },
+        {
+          "text": "Posso anexar arquivos no formulário de contato da Sales Force?"
+        },
+        {
+          "text": "Posso usar o formulário para solicitar uma demonstração dos produtos da Sales Force?"
+        },
+        {
+          "text": "Preciso preencher o formulário"
+        },
+        {
+          "text": "Quais informações são necessárias no formulário de contato da Sales Force?"
+        },
+        {
+          "text": "Qual é o tempo médio de resposta ao utilizar o formulário de contato?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Funcionalidades_Pagina",
+      "examples": [
+        {
+          "text": "Como as funcionalidades desta página podem beneficiar os usuários?"
+        },
+        {
+          "text": "Como posso aproveitar ao máximo as funcionalidades oferecidas nesta página?"
+        },
+        {
+          "text": "Existe algum guia ou tutorial sobre as funcionalidades desta página?"
+        },
+        {
+          "text": "Gostaria de entender as opções e recursos disponíveis nesta página."
+        },
+        {
+          "text": "Onde posso encontrar um resumo das funcionalidades desta página?"
+        },
+        {
+          "text": "O que diferencia as funcionalidades desta página de outras plataformas similares?"
+        },
+        {
+          "text": "O que posso fazer nesta página em termos de funcionalidades?"
+        },
+        {
+          "text": "Poderia me explicar as diferentes funcionalidades desta página?"
+        },
+        {
+          "text": "Posso personalizar as funcionalidades desta página de acordo com minhas preferências?"
+        },
+        {
+          "text": "Quais são as opções de configuração disponíveis para as funcionalidades desta página?"
+        },
+        {
+          "text": "Quais são as principais funcionalidades disponíveis nesta página?"
+        },
+        {
+          "text": "Quais são os principais recursos que esta página oferece aos usuários?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Industria",
+      "examples": [
+        {
+          "text": "As indústrias podem ser clientes da Sales Force?"
+        },
+        {
+          "text": "Como a Sales Force pode agregar valor às empresas do setor industrial?"
+        },
+        {
+          "text": "Conte-me sobre as Industrias que a Sales Force atende"
+        },
+        {
+          "text": "Gostaria de saber mais sobre as parcerias da Sales Force na indústria."
+        },
+        {
+          "text": "Pode compartilhar casos de sucesso da Sales Force na indústria?"
+        },
+        {
+          "text": "Poderia me dizer em quais setores a Sales Force atua?"
+        },
+        {
+          "text": "Quais areas da industria a sales force atende"
+        },
+        {
+          "text": "Quais indústrias a Sales force atende?"
+        },
+        {
+          "text": "Quais recursos a Sales Force disponibiliza para empresas industriais?"
+        },
+        {
+          "text": "Quais são os benefícios para as indústrias que trabalham com a Sales Force?"
+        },
+        {
+          "text": "Quais são os principais clientes da Sales Force na indústria?"
+        },
+        {
+          "text": "Quais segmentos industriais a Sales Force possui expertise?"
+        },
+        {
+          "text": "Quais soluções a Sales Force oferece para o setor industrial?"
+        },
+        {
+          "text": "Quais tipos de empresa a sales force atende"
+        },
+        {
+          "text": "Quais tipos de indústrias podem trabalhar com a Sales Force?"
+        },
+        {
+          "text": "que tipo de empresa a sales force atende"
+        },
+        {
+          "text": "São tipos de Industrias estão disponiveis a treabalhar com a Sales Force? Industrias podem ser clientes da Sales Force?"
+        },
+        {
+          "text": "Sobre as industrias"
+        }
+      ],
+      "description": "Falar sobre as areas da industria que sales force atende"
+    },
+    {
+      "intent": "Login_Plataforma",
+      "examples": [
+        {
+          "text": "Como faço para fazer login na plataforma da Sales Force?"
+        },
+        {
+          "text": "Como posso acessar as funcionalidades após fazer login na plataforma da Sales Force?"
+        },
+        {
+          "text": "Como posso garantir a segurança da minha conta ao fazer login na plataforma da Sales Force?"
+        },
+        {
+          "text": "Como realizar meu login na pagina?"
+        },
+        {
+          "text": "É possível fazer login com minha conta de mídia social na plataforma da Sales Force?"
+        },
+        {
+          "text": "Existe alguma opção de verificação em duas etapas para o login na plataforma da Sales Force?"
+        },
+        {
+          "text": "Gostaria de saber como iniciar sessão na plataforma da Sales Force."
+        },
+        {
+          "text": "Onde encontro a opção de login na plataforma da Sales Force?"
+        },
+        {
+          "text": "O que devo fazer se estiver enfrentando problemas ao tentar fazer login na plataforma da Sales Force?"
+        },
+        {
+          "text": "Poderia me indicar como acessar minha conta na plataforma da Sales Force?"
+        },
+        {
+          "text": "Por onde posso realizar meu login?"
+        },
+        {
+          "text": "Posso recuperar minha senha se esquecê-la ao tentar fazer login na plataforma da Sales Force?"
+        },
+        {
+          "text": "Quais são os requisitos para criar uma conta e fazer login na plataforma da Sales Force?"
+        },
+        {
+          "text": "Qual é o procedimento para entrar na minha conta na plataforma da Sales Force?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Meios_Contato",
+      "examples": [
+        {
+          "text": "Como faço para entrar em contato?"
+        },
+        {
+          "text": "Como posso entrar em contato por telefone com a Sales Force?"
+        },
+        {
+          "text": "Como posso falar com um representante da Sales Force por telefone?"
+        },
+        {
+          "text": "Dias de atendimento"
+        },
+        {
+          "text": "Gostaria de saber o telefone de atendimento ao cliente da Sales Force."
+        },
+        {
+          "text": "Horário de atendimento"
+        },
+        {
+          "text": "Meios de Contato"
+        },
+        {
+          "text": "Meios de contato com a Sales Force"
+        },
+        {
+          "text": "Onde posso encontrar o número de telefone da Sales Force em seu site?"
+        },
+        {
+          "text": "Poderia me fornecer o número de telefone para suporte na Sales Force?"
+        },
+        {
+          "text": "Posso agendar uma ligação com um especialista da Sales Force? Como?"
+        },
+        {
+          "text": "Preciso de assistência imediata. Qual é o telefone de emergência da Sales Force?"
+        },
+        {
+          "text": "Quais são os horários de atendimento por telefone na Sales Force?"
+        },
+        {
+          "text": "Quais são os meios de contato?"
+        },
+        {
+          "text": "Qual é o número de telefone da Sales Force para contato?"
+        },
+        {
+          "text": "Qual é o telefone da central de vendas da Sales Force?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Mudar_Interação",
+      "examples": [
+        {
+          "text": "Como mudar o modelo de resposta?"
+        },
+        {
+          "text": "Muda para texto"
+        },
+        {
+          "text": "Mudar para audio"
+        },
+        {
+          "text": "Mude o modelo de resposta para áudio"
+        },
+        {
+          "text": "Mude o modelo de respostas para texto"
+        },
+        {
+          "text": "Não quero receber mais áudio"
+        },
+        {
+          "text": "Não quero receber mais texto"
+        },
+        {
+          "text": "Pode mudar o modelo de resposta?"
+        },
+        {
+          "text": "Quero mudar o modelo de interação"
+        }
+      ],
+      "description": "Ao falar que precisa mudar o modelo de resposta, o  fluxo precisa ser invertido. Se a pessoa começou por áudio e deseja mudar."
+    },
+    {
+      "intent": "Produto",
+      "examples": [
+        {
+          "text": "Estou interessado em conhecer os produtos disponíveis para empresas."
+        },
+        {
+          "text": "Estou interessado em saber mais sobre os produtos disponíveis."
+        },
+        {
+          "text": "Gostaria de conhecer os produtos da Sales Force, por favor."
+        },
+        {
+          "text": "Me informe os produtos disponiveis"
+        },
+        {
+          "text": "Me informe os produtos disponíveis?"
+        },
+        {
+          "text": "Poderia me informar quais produtos estão disponíveis?"
+        },
+        {
+          "text": "Poderia me listar os produtos disponíveis para a indústria?"
+        },
+        {
+          "text": "Produtos"
+        },
+        {
+          "text": "Produtos sales force"
+        },
+        {
+          "text": "Quais opções de produto estão disponíveis para empresas?"
+        },
+        {
+          "text": "Quais os produtos dispoiveis para o segmento empresa?"
+        },
+        {
+          "text": "Quais os produtos disponiveis para Industria?"
+        },
+        {
+          "text": "Quais são as soluções oferecidas para a indústria?"
+        },
+        {
+          "text": "Quais são as soluções que a Sales Force oferece?"
+        },
+        {
+          "text": "Quais são os produtos da sales force"
+        },
+        {
+          "text": "Quais são os produtos disponíveis para a indústria?"
+        },
+        {
+          "text": "Quais são os produtos disponíveis para o segmento empresarial?"
+        },
+        {
+          "text": "Quais são os produtos oferecidos pela Sales Force?"
+        },
+        {
+          "text": "Quais são os produtos Sales force?"
+        },
+        {
+          "text": "Quero obter informações sobre os produtos da Sales Force."
+        }
+      ],
+      "description": "Apresentar os produtos da Sales Force"
+    },
+    {
+      "intent": "Reclamacoes",
+      "examples": [
+        {
+          "text": "Abra uma reclamação"
+        },
+        {
+          "text": "A experiência geral com a Sales Force não foi positiva."
+        },
+        {
+          "text": "A qualidade do atendimento ao cliente não foi satisfatória."
+        },
+        {
+          "text": "Como abrir uma reclamação?"
+        },
+        {
+          "text": "Como faço para abrir uma reclamação?"
+        },
+        {
+          "text": "Encontrei falhas no funcionamento de um produto da Sales Force."
+        },
+        {
+          "text": "Estou descontente com a falta de comunicação sobre mudanças nos serviços."
+        },
+        {
+          "text": "Estou enfrentando problemas com um dos produtos da Sales Force."
+        },
+        {
+          "text": "Estou insatisfeito com a resposta do suporte técnico da Sales Force."
+        },
+        {
+          "text": "Experienciei dificuldades no processo de compra de um produto."
+        },
+        {
+          "text": "Houve atrasos significativos na entrega do serviço contratado."
+        },
+        {
+          "text": "Houve cobranças indevidas em minha conta relacionadas aos produtos da Sales Force."
+        },
+        {
+          "text": "Não estou contente, como posso abrir uma reclamação?"
+        },
+        {
+          "text": "O desempenho de um produto adquirido não está de acordo com as especificações."
+        },
+        {
+          "text": "O processo de resolução de problemas não foi eficiente."
+        },
+        {
+          "text": "O serviço da Sales Force não atendeu às minhas expectativas."
+        },
+        {
+          "text": "Preciso registrar uma reclamação"
+        },
+        {
+          "text": "Quero registrar uma reclamação"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Rede_Comunicações",
+      "examples": [
+        {
+          "text": "A Sales Force mantém atualizações regulares em suas redes de comunicação?"
+        },
+        {
+          "text": "Como faço para seguir a Sales Force nas redes de comunicação?"
+        },
+        {
+          "text": "Como posso me conectar através das redes de comunicação da Sales Force?"
+        },
+        {
+          "text": "Como posso participar de eventos ou webinars promovidos pela Sales Force através das redes de comunicação?"
+        },
+        {
+          "text": "Gostaria de saber quais redes sociais a Sales Force utiliza para interagir com clientes."
+        },
+        {
+          "text": "Onde posso encontrar os perfis de redes sociais da Sales Force?"
+        },
+        {
+          "text": "Poderia me informar sobre as plataformas de comunicação da Sales Force?"
+        },
+        {
+          "text": "Posso receber suporte ou informações adicionais através das redes de comunicação da Sales Force?"
+        },
+        {
+          "text": "Quais são as formas mais eficazes de interagir com a Sales Force nas redes sociais?"
+        },
+        {
+          "text": "Quais são as principais redes de comunicação da Sales Force?"
+        },
+        {
+          "text": "Quais são os benefícios de me conectar com a Sales Force em suas redes de comunicação?"
+        },
+        {
+          "text": "Quais são os canais de comunicação preferenciais da Sales Force para seus clientes?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Saudacao",
+      "examples": [
+        {
+          "text": "Blz"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "Oi, como vai?"
+        },
+        {
+          "text": "Oie"
+        },
+        {
+          "text": "Oii"
+        },
+        {
+          "text": "Oi, preciso de ajuda"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "Ola, como vai?"
+        },
+        {
+          "text": "Olá, como vai?"
+        },
+        {
+          "text": "Olá, preciso de auxilio"
+        },
+        {
+          "text": "Olá, tudo bem?"
+        },
+        {
+          "text": "Salve"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "WhatsApp",
+      "examples": [
+        {
+          "text": "A Sales Force oferece suporte através do WhatsApp?"
+        },
+        {
+          "text": "Como entrar em contato pelo whatsapp?"
+        },
+        {
+          "text": "Como posso adicionar o número da Sales Force aos meus contatos no WhatsApp?"
+        },
+        {
+          "text": "Como posso obter assistência através do WhatsApp na Sales Force?"
+        },
+        {
+          "text": "É possível agendar reuniões ou chamadas pelo WhatsApp com a Sales Force?"
+        },
+        {
+          "text": "Gostaria de saber como iniciar uma conversa no WhatsApp com a Sales Force."
+        },
+        {
+          "text": "Onde posso encontrar o link para iniciar uma conversa pelo WhatsApp na Sales Force?"
+        },
+        {
+          "text": "Poderia me fornecer o número de WhatsApp para contato na Sales Force?"
+        },
+        {
+          "text": "Posso falar atraves do whatsApp?"
+        },
+        {
+          "text": "Posso receber notificações e atualizações através do WhatsApp da Sales Force?"
+        },
+        {
+          "text": "Quais são os horários de atendimento via WhatsApp na Sales Force?"
+        },
+        {
+          "text": "Qual é o número de WhatsApp da equipe de suporte da Sales Force?"
+        },
+        {
+          "text": "Tem meio de contato como whatsapp?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Aprendizado",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Blogs",
+          "synonyms": [
+            "Artigos",
+            "Conteúdo Escrito",
+            "Postagens de Blog"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Eventos",
+          "synonyms": [
+            "Atividades de Networking",
+            "Conferências",
+            "Encontros"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Trailhead",
+          "synonyms": [
+            "Percursos de Treinamento",
+            "Roteiros de Educação",
+            "Trilha de Aprendizado"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Formato",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Áudio",
+          "synonyms": [
+            "fala",
+            "Som",
+            "voz"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Padrão",
+          "synonyms": [
+            "Antigo",
+            "Defaut"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Texto",
+          "synonyms": [
+            "Escrito",
+            "Textos"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Industria",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Automotivo",
+          "synonyms": [
+            "Indústria Automotiva",
+            "Segmento de Veículos",
+            "Setor Automobilístico"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Comunicações",
+          "synonyms": [
+            "Indústria de Comunicações",
+            "Setor de Comunicação",
+            "Telecomunicações"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Serviços financeiros",
+          "synonyms": [
+            "Indústria de Serviços Financeiros",
+            "Segmento Bancário",
+            "Setor Financeiro"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Listaprodutos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Commerce Cloud",
+          "synonyms": [
+            "Commerce"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Data cloud",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Marketing cloud",
+          "synonyms": [
+            "Marketing cloud "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mulesoft",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sales cloud",
+          "synonyms": [
+            "vendas "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Salesforce platform",
+          "synonyms": [
+            "Platform"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Service Cloud",
+          "synonyms": [
+            "atendimento ao cliente "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Slack",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sustentabilidade",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tableau",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "Resposta_nao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Não",
+          "synonyms": [
+            "n",
+            "Naao",
+            "nan",
+            "nao",
+            "NÂO"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Resposta_Sim",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Sim",
+          "synonyms": [
+            "s",
+            "si",
+            "SIM"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Salescloud",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Conceitos básicos",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ferramentas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Funcionalidades",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Novo Salesforce Lightning",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Por função",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Preço",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Recursos",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "técnicas e como vender mais",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Visao geral",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Saude_e_Ciencias_da_Vida",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Saúde & Ciências da Vida",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Saude e Ciencias da Vida",
+          "synonyms": [
+            "Ciencia",
+            "Saude",
+            "Vida"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "Servicecloud",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Atendimento ao Cliente em Canais Digitais",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Automação de Atendimento ao Cliente: benefícios IA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Conceitos básicos",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Funcionalidades do Service Cloud",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Preços",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Recursos Service Cloud: E-Books, Webinars, e mais",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Soluções Service Cloud: ferramentas de atendimento",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Vantagens Service Cloud: benefícios da plataforma",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Visão geral",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Servicos_Financeiros",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Serviços Financeiros",
+          "synonyms": [
+            "Financeiro",
+            "Servicos financeiros",
+            "Soluccoes financeiras"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Sobre_Empresa",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Histórias de sucesso",
+          "synonyms": [
+            "Casos de Sucesso",
+            "Experiências Bem-Sucedidas",
+            "Narrativas de Sucesso"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Maiores clientes",
+          "synonyms": [
+            "Clientes Principais",
+            "Grandes Colaboradores",
+            "Principais Parceiros"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Notícias",
+          "synonyms": [
+            "Atualizações da Empresa",
+            "Novidades",
+            "Últimas Notícias"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Valores",
+          "synonyms": [
+            "Crenças da Empresa",
+            "Missão e Valores",
+            "Nossos Princípios"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Varejo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Varejo",
+          "synonyms": [
+            "sobre varejo",
+            "VAREJO",
+            "Varejos"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, sou o Tokito chatbot da Sales Force, como posso ajudar? "
+              },
+              {
+                "text": "Oi, tudo bem? como posso te ajudar?"
+              },
+              {
+                "text": "Olá, como posso ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Você sabia que fui treinado para tirar suas dúvidas por texto ou por áudio."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Para aprimorar sua experiência, apresento abaixo uma lista de informações que estou preparado para ajudar você neste momento:\n\nProdutos,\nSobre a Sales Force,\nPrincipais clientes e parceiros,\nProdutos para Indústrias,\nTrailhead,\nCadastro,\nLogin,\nReclamação,\nMeios de Contato,\nFeedback e Elogios,\nFormulário,\nAtendimento,\n\nEstou à disposição para fornecer informações detalhadas sobre cada tópico acima. Para uma maior liberdade em sua interações, a qualquer momento você pode digitar ou falar sobre outros assuntos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "welcome || #Saudacao",
+      "digress_in": "does_not_return",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1698973238139",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1698973238147",
+      "previous_sibling": "handler_7_1698973238147"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_6_1698973238139",
+      "event_name": "input",
+      "dialog_node": "handler_7_1698973238147"
+    },
+    {
+      "type": "standard",
+      "title": "Industria",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "SOLUÇÕES PARA INDÚSTRIAS\n\nTorne-se uma empresa cliente líder em seu setor.\n\nNossas soluções são criadas por especialistas do setor para ajudá-lo a modernizar seus negócios , economizar tempo, reduzir custos e aproximar-se de seus clientes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Escolha sua indústria para começar:\n1. Serviços Financeiros,\n2. Saúde e Ciências da Vida,\n3. Varejo,\n4. Indústria 4.0,\n5. Comunicação e Mídia,\n6. Setor Público,\n7. Automotivo,\n8. Comunicações,\n9. Bens de consumo,\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "Saude": "Saúde & Ciências da Vida",
+        "Setor": "Setor Público",
+        "Varejo": "Varejo",
+        "Automotivo": "Automotivo",
+        "Comunicacao": "Comunicação e Mídia",
+        "Bens_Consumo": "Bens de consumo",
+        "Comunicacoes": "Comunicações",
+        "Industria_Quatro": "Industrias 4",
+        "Servicos_Financeiros": "Serviços Financeiros"
+      },
+      "conditions": "#Industria",
+      "dialog_node": "node_10_1698972430804",
+      "previous_sibling": "node_9_1698972429788"
+    },
+    {
+      "type": "standard",
+      "title": "Sustentabilidade",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O SUSTAINABILITY CLOUD AGORA É NET ZERO CLOUD\n\nAlcance a emissão zero de carbono de maneira rápida com o Net Zero.\n\nReduce costs and emissions all at once.\n\nEfficiently manage sustainability data.\nGet accurate views and auditable reports on real-time greenhouse gas emissions, water, and waste data.\n\nAutomate supplier emissions tracking.\nCollaborate with suppliers to track and take action on full value chain emissions.\n\nForecast and reduce risk.\nGet intelligent emissions predictions, recommendations for reduction, and progress tracking toward net zero targets.\n\nBring efficiency and automation\nto sustainability data management.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1698972427520",
+      "conditions": "@Listaprodutos:Sustentabilidade",
+      "dialog_node": "node_10_1699194596434",
+      "previous_sibling": "node_9_1699194590770"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmação do telefone",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$Nome digite seu e-mail de contato"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1699723516265",
+      "context": {
+        "Telefone": "<? input.text ?>"
+      },
+      "conditions": "$Telefone",
+      "dialog_node": "node_10_1699723901489"
+    },
+    {
+      "type": "standard",
+      "title": "Condição não",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendido. Se houver outro assunto que gostaria de abordar, sinta-se à vontade para digitar ou falar sobre o que precisa. Caso contrário, se a sua consulta estiver completa, você pode encerrar a conversa a qualquer momento. Estou aqui para ajudar!\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1699719479978",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@Resposta_nao",
+      "dialog_node": "node_10_1699726368686",
+      "previous_sibling": "node_9_1699723462988"
+    },
+    {
+      "type": "standard",
+      "title": "Condição sim",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual seu nome e sobrenome?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1699719473658",
+      "context": {},
+      "conditions": "@Resposta_Sim",
+      "dialog_node": "node_10_1699726630442"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmar dados",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se seus dados estiverem corretos, selecione, digite ou fale SIM para finalizar.\nNome: $Nome_Sobrenome\nTelefone de contato: $Telefone\nE-mail: $Email\nSegmento: $Segmento\nDescrição para contato: $Descricao"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "Sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "Não"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1699795997363",
+      "context": {
+        "Descricao": "<? input.text ?>"
+      },
+      "conditions": "$Descricao",
+      "dialog_node": "node_10_1699795827344"
+    },
+    {
+      "type": "standard",
+      "title": "Segmento da empresa",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para finalizar, me informe a descrição do que deseja tratar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1699726899048",
+      "context": {
+        "Segmento": "<? input.text ?>"
+      },
+      "conditions": "$Segmento",
+      "dialog_node": "node_10_1699795997363"
+    },
+    {
+      "type": "standard",
+      "title": "Descricao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$Nome_feedback para finalizar, descreva seu feedback ou elogio."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1699802893497",
+      "context": {
+        "Telefone_feedback": "<? input.text ?>"
+      },
+      "conditions": "$Telefone_feedback",
+      "dialog_node": "node_10_1699803157174"
+    },
+    {
+      "type": "standard",
+      "title": "Automotivo",
+      "parent": "node_10_1698972430804",
+      "conditions": "$Automotivo",
+      "dialog_node": "node_10_1699805686763",
+      "previous_sibling": "node_8_1699804911557"
+    },
+    {
+      "type": "standard",
+      "title": "Condição sim",
+      "parent": "node_5_1699804906054",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1699726630442"
+      },
+      "conditions": "@Resposta_Sim",
+      "dialog_node": "node_10_1699807208689"
+    },
+    {
+      "type": "standard",
+      "title": "Condição Sim",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gerenciamento de contatos\nTenha uma visão completa de seus clientes, incluindo histórico de atividades, contatos importantes, comunicações de clientes e discussões internas relacionadas à conta. Obtenha insights de sites populares de mídia social, como Facebook, Twitter, LinkedIn e YouTube, diretamente no Salesforce.\n\nGerenciamento de oportunidades\nObtenha todos os detalhes sobre as negociações da sua equipe: fase, produtos, concorrência, cotações e muito mais. Mantenha-se conectado às pessoas e às informações necessárias para fechar todas as vendas.\n\nSalesforce Inbox\nOtimize seu fluxo de trabalho e identifique dados importantes do cliente no momento mais necessário aproveitando os recursos do Relationship Intelligence para prever as necessidades do cliente diretamente no seu email e em qualquer lugar.\n\nSalesforce Engage\nConecte a força de vendas aos clientes com apenas um clique usando campanhas de vendas personalizadas criadas pelo marketing. Você poderá entender a interação dos clientes em potencial e usar alertas de vendas em tempo real para agir no momento certo.\n\nColaboração de vendas\nExplore o conhecimento de todas as pessoas da empresa com uma rede de colaboração social projetada para negócios. Acompanhe as negociações e encontre especialistas, informações sobre a concorrência e outros recursos para fechar mais negócios, com mais rapidez e em qualquer lugar.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1699211976233",
+      "conditions": "@Resposta_Sim",
+      "dialog_node": "node_10_1700407032499"
+    },
+    {
+      "type": "standard",
+      "title": "Data cloud ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Uma plataforma de dados em hiperescala integrada à Salesforce.\nAtive todos dados dos seus clientes nos diversos apps da Salesforce com o Data Cloud. Capacite as equipes a envolver os clientes, em cada ponto de contato, com insights relevantes e dados contextuais no fluxo do trabalho."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1698972427520",
+      "conditions": "@Listaprodutos:(Data cloud)",
+      "dialog_node": "node_1_1699194560660",
+      "previous_sibling": "node_7_1699194555296"
+    },
+    {
+      "type": "standard",
+      "title": "Novo Sales force lightning",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lightining - Estamos desenvolvendo est etapa ainda e logo traremos mais informações. Fique a vontade para digitar ou enviar um áudio com outras dúvidas ou para saber mais sobre a Sales Force."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1699193552406",
+      "conditions": "@Salescloud:(Novo Salesforce Lightning)",
+      "dialog_node": "node_1_1699213623538",
+      "previous_sibling": "node_3_1699213619163"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmação dos dados",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$Nome se os dados tiverem corretos, digite ou fale sim para enviar a reclamação.\nSeu nome: $Nome\nTelefone: $Telefone\nE-mail: $Email\nDescrição da reclamação: $Descricao_Reclamacao"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "Sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "Não"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1699723925431",
+      "context": {
+        "Descricao_Reclamacao": "<? input.text ?>"
+      },
+      "conditions": "$Descricao_Reclamacao",
+      "dialog_node": "node_1_1699724012698"
+    },
+    {
+      "type": "standard",
+      "title": "Condição não",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendi perfeitamente! Se não precisar de mais informações, sinta-se à vontade para encerrar a conversa."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1699724732613",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@Resposta_nao",
+      "dialog_node": "node_1_1699724910937",
+      "previous_sibling": "node_4_1699724846495"
+    },
+    {
+      "type": "standard",
+      "title": "Solicitação do e-mail",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite seu e-mail para contato"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1699726862498",
+      "context": {
+        "Telefone": "<? input.text ?>"
+      },
+      "conditions": "$Telefone",
+      "dialog_node": "node_1_1699726875317"
+    },
+    {
+      "type": "standard",
+      "title": "Solicitar e-mail",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$Nome_cadastro agora digite seu e-mail que você gostaria de utilizar para fazer o Login."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1699798600011",
+      "context": {
+        "Nome_cadastro": "<? input.text ?>"
+      },
+      "conditions": "$Nome_cadastro",
+      "dialog_node": "node_1_1699798793929"
+    },
+    {
+      "type": "standard",
+      "title": "Condição sim",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$Nome seu cadastro foi efetivado com sucesso. Agora teste seu cadastro no campo de Login.\n\nTe ajudo em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "Sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "Não"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1699798959596",
+      "conditions": "@Resposta_Sim",
+      "dialog_node": "node_1_1699798993596"
+    },
+    {
+      "type": "standard",
+      "title": "Condição não",
+      "parent": "node_7_1699805162096",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@Resposta_nao",
+      "dialog_node": "node_1_1699805274525",
+      "previous_sibling": "node_9_1699805272987"
+    },
+    {
+      "type": "standard",
+      "title": "Marketing cloud ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Faça cada momento valer a pena para alcançar o sucesso imediato\nAtraia clientes. Gere mais engajamento.\nConstrua relações duradouras.\nTudo isso graças ao marketing digital baseado em dados.\n\nTorne seu investimento em marketing mais eficaz com o Marketing Cloud.\n\nAutomatize o engajamento em todos os canais.\nEconomize tempo e recursos na entrega de conteúdos relevantes por email, na Web, por dispositivos móveis e muito mais.\n\nOtimize a performance de marketing com insights inteligentes.\nImpulsione o ROI e otimize investimentos em marketing com uma análise de dados unificada e baseada em IA.\n\nPersonalize momentos com dados em tempo real, graças ao Salesforce Genie.\nAlcance clientes em momentos decisivos. Potencialize sua estratégia usando dados em tempo real em diversos canais e equipes.\n\nAlcance o sucesso agora mesmo com soluções de marketing baseado em dados."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1698972427520",
+      "conditions": "@Listaprodutos:(Marketing cloud)",
+      "dialog_node": "node_2_1699194550418",
+      "previous_sibling": "node_9_1699194524189"
+    },
+    {
+      "type": "standard",
+      "title": "Conceitos basicos ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Conceitos basicos - Estamos desenvolvendo est etapa ainda e logo traremos mais informações. Fique a vontade para digitar ou enviar um áudio com outras dúvidas ou para saber mais sobre a Sales Force."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1699193552406",
+      "conditions": "@Salescloud:(Conceitos básicos)",
+      "dialog_node": "node_2_1699213629933",
+      "previous_sibling": "node_4_1699213627406"
+    },
+    {
+      "type": "standard",
+      "title": "Meios de contato",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para obter assistência imediata, entre em contato conosco através do telefone 0800 891 1887. Nossa equipe terá o prazer de ajudar.\n\nNosso horário de atendimento é de segunda a sexta-feira, das 9h às 18h. Estamos aqui para ajudar durante essas horas. Se você precisar de suporte ou tiver alguma dúvida, sinta-se à vontade para entrar em contato conosco pelo telefone 0800 891 1887 ou preenchendo nosso formulário de contato online.\n\nAlém disso, você pode tirar dúvidas a qualquer momento digitando seu questionamento no aqui no chatbot. Estamos comprometidos em fornecer o melhor atendimento possível aos nossos clientes e visitantes, seja qual for a sua preferência de contato."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#Meios_Contato",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1699719426191",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Condição não",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendi perfeitamente! Se não precisar de mais informações, sinta-se à vontade para encerrar a conversa."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1699712369274",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@Resposta_nao",
+      "dialog_node": "node_2_1699798631220",
+      "previous_sibling": "node_3_1699798600011"
+    },
+    {
+      "type": "standard",
+      "title": "Condição sim",
+      "parent": "node_9_1698972429788",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1699726630442"
+      },
+      "conditions": "@Resposta_Sim",
+      "dialog_node": "node_2_1699804394645"
+    },
+    {
+      "type": "standard",
+      "title": "Bens de consumo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Proporcione crescimento lucrativo\n\nAPRESENTAMOS O SALESFORCE GENIE\nDescubra a magia de uma plataforma B2B2C conectada.\nConecte e harmonize dados para criar experiências de marca incríveis para impulsionar o crescimento lucrativo.\n\nImpulsione os resultados de qualquer marca.\n\nVestuário, calçados e acessórios\nSeja a marca que os consumidores mais querem ter em seus guarda-roupas, graças a soluções que personalizam interações em tempo real.\n\nSaúde e beleza\nEntregue experiências personalizadas no setor de bem-estar e saúde, graças a ferramentas que aumenta o ROI de marketing e cria relacionamentos de varejo mais sólidos.\n\nBens domésticos duráveis (BDR)\nCrie relacionamentos confiáveis e aumente a penetração no mercado de BDR, usando ferramentas inteligentes automatizadas em todas as etapas dos negócios.\n\nBens de consumo rápido\nUse insights de dados em tempo real e impulsione a fidelidade dos consumidores. Depois, é só captar uma margem maior no checkout, usando planejamento e execução otimizados.\n\nAtraia consumidores, conquiste fidelidade e capacite equipes.\n\nConsumer Goods Cloud\nPlaneje e execute, tudo em uma única plataforma conectada. Expanda os negócios e conquiste a fidelidade do cliente, adquirindo mais agilidade e insights inteligentes.\nA partir de US$ 50/usuário/mês* (cobrado anualmente)\n\n* Essa edição requer contrato anual.\n* O preço acima refere-se à Enterprise Edition. Unlimited Edition está disponível para o setor de Vendas Externas e Vendas Estratégicas ao preço de $300/usuário/mês e $450/usuário/mês, respectivamente.\n\nEsta página é fornecida apenas para fins informativos e está sujeita a alterações. Fale com um representante de vendas para obter informações detalhadas sobre os preços.\n\nPronto para saber mais sobre os bens de consumo?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1698972430804",
+      "conditions": "$Bens_Consumo",
+      "dialog_node": "node_2_1699805723525",
+      "previous_sibling": "node_5_1699805688281"
+    },
+    {
+      "type": "standard",
+      "title": "Condição não",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendi perfeitamente! Se não precisar de mais informações, sinta-se à vontade para encerrar a conversa."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1699804906054",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@Resposta_nao",
+      "dialog_node": "node_2_1699807210520",
+      "previous_sibling": "node_10_1699807208689"
+    },
+    {
+      "type": "standard",
+      "title": "Condição não",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendi perfeitamente! Se não precisar de mais informações, sinta-se à vontade para encerrar a conversa."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1699804901078",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@Resposta_nao",
+      "dialog_node": "node_2_1699807656300",
+      "previous_sibling": "node_5_1699805827315"
+    },
+    {
+      "type": "standard",
+      "title": "Empresa",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O que é a Salesforce?\nA Salesforce é uma empresa de softwares que foca na solução de gerenciamento de relacionamento para aproximar empresas e pessoas. É uma plataforma de CRM integrada que oferece a todos os departamentos uma visão única e compartilhada de cada cliente.\n\nO que é a Salesforce faz?\nJuntos, conectamos as empresas aos seus clientes.\nUtilizando o Salesforce Customer 360, nossa plataforma de CRM integrada, sua empresa oferece experiências personalizadas para seus clientes. Nossa solução fornece produtos poderosos e conectados para melhorar seu marketing, vendas, commerce, atendimento ao cliente, TI e muito mais.\n\nPor que usar Salesforce?\n* Atraia mais compradores com uma estratégia de marketing personalizada.\n* Conquiste mais clientes conhecendo suas necessidades e preocupações.\n* Atenda às expectativas dos seus clientes oferecendo experiências incríveis de compra.\n* Responda rapidamente aos problemas de suporte ao cliente em qualquer canal.\n* Automatize tarefas demoradas criando aplicativos personalizados.\n\nO que a Salesforce representa?\nNossos principais valores ajudam a tornar a Salesforce uma plataforma para mudanças.\nDesde que começamos a operar em um pequeno apartamento em São Francisco em 1999, acreditamos que fazer o bem como empresa significa fazer o bem ao mundo. Por isso, comprometemos nosso tempo, equidade e produtos para melhorar a educação, a igualdade e o meio ambiente para todos. Os principais valores da Salesforce: Confiança, Sucesso do Cliente, Inovação, Igualdade e Sustentabilidade.\n\nO que fazemos para as pessoas?\nNossa tecnologia ajuda as pessoas a terem melhores empregos, vidas, empresas e comunidades.\nQuando você compra uma solução da Salesforce, não está apenas comprando uma plataforma de CRM; você está ingressando em uma comunidade inclusiva de mais de 10 milhões de inovadores, disruptores e modeladores de comunidade que chamamos de Trailblazers. Com o aprendizado online gratuito da Trailhead, eles estão aprendendo as habilidades para melhorar suas empresas e carreiras.\n\nSe desejar saber de mais alguma informação, pode digitar ou enviar um áudio com a sua dúvida."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#Empresa",
+      "dialog_node": "node_3_1698972428660",
+      "previous_sibling": "node_4_1699719449179"
+    },
+    {
+      "type": "standard",
+      "title": "Aprendizado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Prepare-se para o futuro\n\nAprender novas habilidades em qualquer lugar.\nComece gratuitamente acessando o link:  https://trailhead.salesforce.com/pt-BR\n\nO Trailhead é a maneira divertida de aprender\n\n* Aprenda habilidades valorizadas\n* Coloque tudo em prática e aprenda sobre as habilidades interpessoais, digitais e relacionadas ao Salesforce de que você necessita para ter sucesso em qualquer lugar, gratuitamente.\n\n* Ganhe credenciais que enriquecem seu currículo\n* Prove suas habilidades e ganhe credenciais reconhecidas mundialmente que demonstrem sua experiência a empregadores atuais e futuros.\n\nJunte-se à Trailblazer Community global para aprender habilidades relevantes, se conectar com Trailblazers e retribuir.\n\nAprenda habilidades de IA\n* A demanda por profissionais com habilidades em IA disparou. Turbine sua carreira e aprenda hoje as habilidades de IA mais atuais.\n\nTrailblazer\nCOMMUNITY\nA Trailblazer Community reimaginada chegou\nBem-vindo ao mundo da conexão de qualquer lugar.\n\nDê um impulso na sua carreira\n* Há mais de um milhão de empregos no ecossistema do Salesforce. Não importa sua formação ou seus interesses, há um caminho para você.\n\nArquiteto do Salesforce:\nOs arquitetos do Salesforce projetam, criam e fornecem soluções que as empresas precisam para ter sucesso em uma economia exigente. Eles não necessitam de ter formação em engenharia, mas têm um profundo conhecimento técnico e são o principal recurso técnico para equipes de entrega e partes interessadas do projeto.\n \n* Você nasceu para gerenciar problemas complexos\n* Estratégia é seu forte\n* Você está sempre 10 passos à frente\n\nDeseja saber mais sobre o Trailhead? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "Sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "Não"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Aprendizado",
+      "dialog_node": "node_3_1698972431854",
+      "previous_sibling": "node_10_1698972430804"
+    },
+    {
+      "type": "standard",
+      "title": "Sales cloud ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O que você gostaria de aprender sobre o Salesforce Sales Cloud:\n\n1. Visão Geral,\n2. Funcionalidades,\n3. Ferramentas,\n4. Preços,\n5. Salesforce Lightning,\n6. Por Função,\n7. Conceitos Básicos,\n8. Técnicas e Como Vender Mais,\n9. Recursos,\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1698972427520",
+      "conditions": "@Listaprodutos:(Sales cloud)",
+      "dialog_node": "node_3_1699193552406"
+    },
+    {
+      "type": "standard",
+      "title": "Preços Sales cloud",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Preços - Estamos desenvolvendo est etapa ainda e logo traremos mais informações. Fique a vontade para digitar ou enviar um áudio com outras dúvidas ou para saber mais sobre a Sales Force."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1699193552406",
+      "conditions": "@Salescloud:Preço",
+      "dialog_node": "node_3_1699213619163",
+      "previous_sibling": "node_8_1699212037515"
+    },
+    {
+      "type": "standard",
+      "title": "Salescloud recursos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Recursos - Estamos desenvolvendo est etapa ainda e logo traremos mais informações. Fique a vontade para digitar ou enviar um áudio com outras dúvidas ou para saber mais sobre a Sales Force."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1699193552406",
+      "conditions": "@Salescloud:Recursos",
+      "dialog_node": "node_3_1699213635811",
+      "previous_sibling": "node_6_1699213632224"
+    },
+    {
+      "type": "standard",
+      "title": "Reclamações",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendemos que você está enfrentando dificuldades e queremos resolver isso da melhor maneira possível. Pedimos desculpas por qualquer inconveniente que você tenha encontrado.\n\nSeus comentários são extremamente importantes para nós, e vamos garantir que sua reclamação seja tratada com a máxima prioridade.\n\nDigite, selecione ou fale sim para prosseguirmos com o registro da sua reclamação."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "Sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "Não"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "context": {
+        "Nome": "<? input.text ?>",
+        "Email": "<? input.text ?>",
+        "Telefone": "<? input.text ?>",
+        "Descricao_Reclamacao": "<? input.text ?>"
+      },
+      "conditions": "#Reclamacoes",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1699719479978",
+      "previous_sibling": "node_8_1699719488148"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmação",
+      "output": {
+        "generic": [
+          {
+            "title": "$Nome sua Reclamação foi enviada. Logo entraremos em contato. Posso te ajuda em algo mais?",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "Sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "Não"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1699724012698",
+      "conditions": "@Resposta_Sim",
+      "dialog_node": "node_3_1699724732613"
+    },
+    {
+      "type": "standard",
+      "title": "Condição sim",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual seu nome?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1699712369274",
+      "context": {},
+      "conditions": "@Resposta_Sim",
+      "dialog_node": "node_3_1699798600011"
+    },
+    {
+      "type": "standard",
+      "title": "Solicitar telefone",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$Nome_feedback me informe seu telefone."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1699800170195",
+      "context": {
+        "Email_feedback": "<? input.text ?>"
+      },
+      "conditions": "$Email_feedback",
+      "dialog_node": "node_3_1699802893497"
+    },
+    {
+      "type": "standard",
+      "title": "Condição não",
+      "parent": "node_3_1698972431854",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@Resposta_nao",
+      "dialog_node": "node_3_1699808994499",
+      "previous_sibling": "node_8_1699808992790"
+    },
+    {
+      "type": "standard",
+      "title": "Condição Não",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendi, vou direcionar você para lista de produtos disponíveis. Caso deseje, pode digitar ou falar a qualquer momento sua dúvida ou solicitação."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1699212533364",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1698972427520"
+      },
+      "conditions": "@Resposta_nao",
+      "dialog_node": "node_3_1700406687027",
+      "previous_sibling": "node_7_1700406626047"
+    },
+    {
+      "type": "standard",
+      "title": "Funcionalidades do sales cloud ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gerenciamento de contatos,\nGerenciamento de oportunidades, \nSalesforce Inbox,\nSalesforce Engage,\nColaboração de vendas,\nGerenciamento de leads,\nAutomação de marketing,\nDados de vendas,\nGerenciamento de parceiros,\nLightning Voice,\nMobilidade,\nFluxo de trabalho e aprovações,\nPor dentro do console de vendas,\nIntegração de email,\nSincronização e compartilhamento de arquivos,\nRelatórios e painéis,\nPrevisões de vendas,\nGerenciamento de territórios,\nWave App for Sales,\n\nDeseja saber em mais detalhes sobre essas funcionalidades? Apenas digite ou fale SIM."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1699193552406",
+      "conditions": "@Salescloud:Funcionalidades",
+      "dialog_node": "node_4_1699211976233",
+      "previous_sibling": "node_8_1699212533364"
+    },
+    {
+      "type": "standard",
+      "title": "Por função ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Funções - Estamos desenvolvendo est etapa ainda e logo traremos mais informações. Fique a vontade para digitar ou enviar um áudio com outras dúvidas ou para saber mais sobre a Sales Force."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1699193552406",
+      "conditions": "@Salescloud:(Por função)",
+      "dialog_node": "node_4_1699213627406",
+      "previous_sibling": "node_1_1699213623538"
+    },
+    {
+      "type": "standard",
+      "title": "Atendimento ao cliente em canais digitais ",
+      "parent": "node_9_1699194524189",
+      "conditions": "@Servicecloud:(Atendimento ao Cliente em Canais Digitais)",
+      "dialog_node": "node_4_1699214677151",
+      "previous_sibling": "node_5_1699214675859"
+    },
+    {
+      "type": "standard",
+      "title": "Login",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá! Para fazer login no nosso site e aproveitar todas as funcionalidades, siga estas etapas simples:\n\n1. Visite nosso site em https://www.salesforce.com/br/.\n2. Clique no botão \"Login\" localizado no canto superior direito da página.\n3. Insira seu nome de usuário e senha nos campos apropriados.\n4. Selecione a opção \"Lembrar-me\" se desejar que o site salve suas informações para futuros acessos.\n5. Clique no botão \"Entrar\" para acessar sua conta.\n\nSe você esqueceu sua senha, clique no link \"Esqueceu a senha?\" e siga as instruções para redefinir sua senha.\n\nAlém disso, oferecemos a opção de fazer login usando suas plataformas de mídia social ou parceiras, como o Gmail, Linkedin, Apple, entre outros . Selecione a opção \"Login com nome da plataforma\" e siga as instruções para vincular sua conta.\n\nSe precisar de ajuda adicional, estamos aqui para ajudar. \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#Login_Plataforma",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1699719449179",
+      "previous_sibling": "node_8_1698972427520"
+    },
+    {
+      "type": "standard",
+      "title": "Condição sim",
+      "parent": "node_3_1699724732613",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@Resposta_Sim",
+      "dialog_node": "node_4_1699724846495"
+    },
+    {
+      "type": "standard",
+      "title": "Solicitacão do e-mail",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Informe o segmento da sua empresa"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1699726875317",
+      "context": {
+        "Email": "<? input.text ?>"
+      },
+      "conditions": "$Email",
+      "dialog_node": "node_4_1699726899048"
+    },
+    {
+      "type": "standard",
+      "title": "Condição não",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo, como os dados não conferem, vamos começar novamente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1699795827344",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1699726630442"
+      },
+      "conditions": "@Resposta_nao",
+      "dialog_node": "node_4_1699796425516",
+      "previous_sibling": "node_5_1699796374600"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmação dos dados",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$Nome_cadastro se seus dados estiverem corretos, digite, selecione ou diga SIM.\n\nE-mail para login: $Email_cadastro\nSenha: $Senha_cadastro"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "Sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "Não"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1699798894484",
+      "context": {
+        "Senha_cadastro": "<? input.text ?>"
+      },
+      "conditions": "$Senha_cadastro",
+      "dialog_node": "node_4_1699798959596"
+    },
+    {
+      "type": "standard",
+      "title": "Condição sim",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite ou encaminhe um áudio com a sua dúvida ou solicitação."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1699798993596",
+      "dialog_node": "node_4_1699809221258"
+    },
+    {
+      "type": "standard",
+      "title": "Funcionalidades do service cloud ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Conheça seus clientes.\nConecte, integre e combine dados de qualquer produto e sistema em uma visão completa sobre cada cliente.\n\nConectores prontos para uso\nCrie integrações de dados seguras e escaláveis com conectores predefinidos para qualquer sistema.\n\nAja com base em IA no fluxo do trabalho.\nConecte seus dados com o CRM de IA nº 1 para permitir que as equipes tomem decisões com base em dados e insights relevantes dos processos e apps já existentes do Salesforce.\nIA fundamentada\nDesenvolva uma IA mais inteligente e eficiente com acesso seguro a dados próprios e da indústria.\n\nSegmentação em tempo real\nAutomação orientada por dados\nAnálises e insights\n\nEnriqueça seus dados com acesso aberto.\nIntegre perfeitamente qualquer sistema com o Data Cloud, uma plataforma de dados aberta e extensível.\n\nTraga seu próprio lake\nCompartilhe seus dados de forma segura e bidirecional entre o Data Cloud e os principais data lakes e warehouses com ETL zero.\n\nPublicidade primária\nAppExchange\n\nCom o Data Cloud como a base do Customer 360, cada equipe pode colocar os insights em prática.\n\nSales Cloud\nPriorize oportunidades de crescimento impactantes, sem fazer suposições. Obtenha uma visão unificada das suas contas e atividades de vendas com dados de qualquer fonte.\nService Cloud\nAjude os seus clientes, antes que eles abram um processo, com uma visão única e dinâmica de cada cliente e todos os seus dados de serviço.\nMarketing Cloud\nGanhe tempo e otimize os gastos com marketing com engajamento automatizado, segmentação inteligente e ativação e insights em tempo real."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1699194524189",
+      "conditions": "@Servicecloud:(Funcionalidades do Service Cloud)",
+      "dialog_node": "node_5_1699214675859",
+      "previous_sibling": "node_9_1699214206667"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmação do nome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$Nome agora digite um telefone para contato"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1699723462988",
+      "context": {
+        "Nome": "<? input.text ?>"
+      },
+      "conditions": "$Nome",
+      "dialog_node": "node_5_1699723516265"
+    },
+    {
+      "type": "standard",
+      "title": "Condição sim",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Agradeço pelas informações! Sua solicitação de contato foi enviado e em até oito horas úteis, iremos entrar em contato com você. Até logo e tenha um ótimo dia."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1699795827344",
+      "conditions": "@Resposta_Sim",
+      "dialog_node": "node_5_1699796374600"
+    },
+    {
+      "type": "standard",
+      "title": "Serviços Financeiros",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dos bancos da Main Street aos investimentos da Wall Street, o setor financeiro está sendo revolucionado pelas inovações digitais, sociais e móveis. A Salesforce ajuda as empresas a sair da defesa e passar à ofensiva, com interações com o cliente cada vez mais pessoais. \n\nAlgumas de nossas soluções:\n\nFinancial Services Cloud\nReforce a produtividade da consultoria e envolva os clientes por meio de alertas inteligentes e ações proativas. Para que você possa criar relações mais profundas e fazer crescer seus negócios com mais rapidez.\n\nSeguros\nConecte as informações de titulares de apólices por meio de diversos canais e linhas de negócios, ao mesmo tempo oferecendo uma única experiência de cliente em gerenciamento de casos, vendas, reivindicações e atendimento.\n\nBancário\nCrie uma visão única de cliente em todos os produtos e em todas as linhas de negócios. Agora os funcionários podem colaborar em tempo real, fornecer respostas relevantes em tempo real, converter mais leads e criar clientes para toda a vida.\n\nDeseja saber mais sobre a solução financeira?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "Sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "Não"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1698972430804",
+      "conditions": "$Servicos_Financeiros",
+      "dialog_node": "node_5_1699804898565"
+    },
+    {
+      "type": "standard",
+      "title": "Varejo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "SALESFORCE PARA VAREJO\nDiminua os custos e aumente a fidelidade.\n\nColoque os compradores no centro de cada experiência com IA + Dados + CRM.\n\nModa\nAumente a fidelidade conectando-se com seus clientes em toda a jornada de compra.\n\nRestaurantes\nConecte a experiência do hóspede em todos os canais. Aumente a colaboração e o envolvimento com franqueados e funcionários.\n\nMercearias, Drogarias e Lojas de Conveniência\nTransforme o envolvimento com compradores, lojas e funcionários, tudo em uma única plataforma.\n\nComerciantes de massa e lojas de departamento\nOtimize suas lojas e associados para ajudar a conectar experiências de compras físicas e digitais.\n\nGerencie sua rede de mídia de varejo a partir de uma plataforma conectada.\n\nConheça o Salesforce para mídia de varejo.\nProcurando por margens mais altas? O Salesforce for Retail Media foi projetado para ajudar os varejistas a aumentar a receita de publicidade, escalar operações e vendas de mídia e otimizar o desempenho da campanha ativando dados primários.\n\nVeja como a Herman Miller impressiona os clientes com designs inspiradores, vitrines digitais e suporte contínuo.\n\nExplore nossas previsões de compras e insights de férias, alimentados por mais de 1 bilhão de compradores globais.\n\nDescubra insights e pensamentos da liderença para o setor de varejo.\n\nPronto para transformar seu negócio de varejo?\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "Sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "Não"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1698972430804",
+      "conditions": "$Varejo",
+      "dialog_node": "node_5_1699804906054",
+      "previous_sibling": "node_6_1699804901078"
+    },
+    {
+      "type": "standard",
+      "title": "Indústria 4.0",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nunca as pessoas, os produtos, os mercados e os canais estiveram tão conectados. O Salesforce oferece vantagens competitivas nesses mercados hiperconectados, com envolvimento em tempo real em todos os ecossistemas corporativos. Conecte dispositivos, venda mais rápido, atenda com eficiência e ultrapasse a concorrência."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Fabricação:\nTransforme todas as interações da consulta ao pedido e as operações de atendimento em campo em experiências personalizadas. Ative a colaboração concentrada no cliente 24 por dia, sete dias por semana em todo o ecossistema. E libere a nova onda de inovação em atendimento gerada pelos dados de produtos conectados.\n\nBens de consumo:\nCrie relacionamentos mais profundos de varejo e maximize a receita, com a colaboração baseada em dados no gerenciamento de contas. Em seguida crie um diálogo personalizado com os consumidores para desenvolver produtos mais específicos e execução de varejo.\n\nAutomotivo:\nCrie uma experiência pessoal, do possível comprador ao orgulhoso proprietário e eventual revendedor. Envolva os clientes em tempo real usando qualquer dispositivo e, em seguida, capture e gerencie os relacionamentos em todos os canais com facilidade.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1698972430804",
+      "conditions": "$Industria_Quatro",
+      "dialog_node": "node_5_1699804907815",
+      "previous_sibling": "node_5_1699804906054"
+    },
+    {
+      "type": "standard",
+      "title": "Comunicações",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Redefina o foco da comunicação no cliente com uma plataforma flexível e escalável.\n\nUnifique equipes, parceiros e fontes de dados com uma única fonte da verdade. Obtenha recursos digitais inigualáveis para automatizar processos, modernizar o engajamento e oferecer serviço personalizado.\n\nAcelere o retorno do investimento com o Communications Cloud.\nTransforme seu BSS com o Communications Cloud. Simplifique o processo da cotação ao pedido, reduza o tempo de lançamento no mercado e alimente experiências integradas em escala.\n\nTransforme seus relacionamentos com clientes e parceiros com o CRM nº 1\nImpulsione a inovação de qualquer lugar, com soluções específicas do setor de comunicações que podem ser facilmente dimensionadas e integradas. Dê às equipes as ferramentas necessárias para maximizar a produtividade e gerar um engajamento de impacto ao longo de toda a jornada do cliente.\n\nVodafone estabelece vínculos através das mídias sociais\n“Todos querem ter voz. Garantimos que elas sejam ouvidas”\n\nCORMAC HODGKINSON, DIRETOR, VENDAS E SERVIÇOS\n\nReconectar as telecomunicações ao sucesso futuro significa mudar o foco para o cliente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1698972430804",
+      "conditions": "$Comunicacoes",
+      "dialog_node": "node_5_1699805688281",
+      "previous_sibling": "node_10_1699805686763"
+    },
+    {
+      "type": "standard",
+      "title": "Condição sim",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vou explicar melhor sobre essa solução. Caso deseje contato do nosso time de especialista, selecione, digite ou apenas fale SIM.\n\nVeja com o Slack uma das funcionalidades funcionam,\n\nO sucesso imediato começa com o Slack, seu QG digital.\n\nDescubra um jeito flexível de conectar pessoas, parceiros de negócios e aplicativos. Integrado ao Salesforce Customer 360, o Slack impulsiona a produtividade e faz funcionar o trabalho colaborativo.\n\nCustos reduzidos, produtividade aprimorada e comunicação perfeita com os clientes.\n\nAumente a eficiência, graças a fluxos de trabalho automatizados.\nDê a todos o poder de automatizar tarefas manuais, com fluxos de trabalho flexíveis e mais de 2.500 apps integrados.\n\nImpulsione o desempenho da equipe, aprimorando a capacidade de tomada de decisão.\nTorne as previsões e recomendações inteligentes mais acionáveis, contextualizando-as de acordo com o cenário de ação.\n\nAprimore a tomada de decisão, usando dados em tempo real.\n\nResponda rapidamente às demandas dos clientes, incluindo-os no seu QG digital, graças ao Salesforce Data Cloud totalmente integrado.\n\n* 26% de aumento na produtividade dos colaboradores.*\n* Destaques globais das métricas de sucesso do Salesforce de 2022. Um estudo de 2022, baseado em 3.706 entrevistas com clientes nos EUA, Canadá, Reino Unido, Alemanha, França, Austrália, Índia, Cingapura, Japão e Brasil.\n\nTudo o que você precisa para alcançar o sucesso, se conectar e colaborar com eficiência.\n\nRECURSO\nSlack Connect\nAcelere o fechamento de negócios e entregue o melhor atendimento, interagindo com os clientes em canais seguros e dedicados.\n\nINTEGRAÇÕES\nSalesforce para Slack\nConcentre o trabalho em torno das necessidades do cliente, levando o poder dos dados, ferramentas e processos do Salesforce diretamente para o Slack.\n\nRECURSO\nHuddles\nPermite às equipes se conectarem e trabalharem colaborativamente em tempo real, dispensando o agendamento tedioso de reuniões.\n\nUnifique todas as equipes, compartilhando insights dos clientes em tempo real.\n\nQG DIGITAL PARA VENDAS\nImpulsione a produtividade e feche mais negócios.\nCom o Slack, as equipes de vendas podem:\n* Acelerar o fechamento de novos negócios, graças à automação e aos insights acionáveis\n* Conectar-se com clientes e parceiros de negócios com segurança e em tempo real\n* Encurtar processos ao reunir as equipes, dados e ferramentas certas\n\n15% de ciclos de vendas mais rápidos em média*\n27% de aumento no índice de sucesso**\n*Fonte: “The Total Economic Impact™ of Slack for Sales Teams ”, um estudo comissionado realizado pela Forrester Consulting em nome do Slack, abril de 2021.\n**Fonte: Métricas de sucesso do cliente do Salesforce, ano fiscal 2023. Com base em: Usuários Slack Dual n=115-776\n\nQG DIGITAL PARA ATENDIMIENTO\nEntregue um atendimento VIP com insights em tempo real.\n\nCom o Slack, as equipes de serviço podem:\n* Possibilitar a distribuição de casos intraempresa e solucionar problemas com maior rapidez\n* Expandir serviços privilegiados para clientes VIP, com a ajuda de recursos em tempo real\n* Impulsionar a produtividade, graças a fluxos de trabalho automatizados\n* 26% de redução no tempo de casos\n* 11% de aumento médio de CSAT**\n* Fonte: Case Swarming with Slack: How Salesforce Support Delivers Better, Faster Case Resolution, 2021.\n**Fonte: “The Total Economic Impact™ of Slack for Service Teams”, um estudo comissionado realizado pela Forrester Consulting em nome do Slack, abril de 2021.\n\nQG DIGITAL PARA O MARKETING\nDesenvolva relacionamentos confiáveis e acelere o crescimento.\n\nCom o Slack, as equipes de marketing podem:\n* Gerar fidelidade ao reagir a dados e tendências em tempo real\n* Acelerar o desenvolvimento até o mercado, unificando as equipes\n* Transformar insights em impacto real, graças a fluxos de trabalho otimizados\n* 16% de ganho em rapidez de execução de campanhas de marketing\n* 11% de aumento médio de CSAT**\n\nO Slack foi apontado como solução líder no Relatório MarketScape IDC.\nDescubra as maiores tendências em aplicativos de colaboração e de comunidade, e garanta a escolha pelo fornecedor ideal."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "Sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "Não"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1699804901078",
+      "conditions": "@Resposta_Sim",
+      "dialog_node": "node_5_1699805827315"
+    },
+    {
+      "type": "standard",
+      "title": "Quando não souber a resposta.",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não entendi sua solicitação."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_5_1700778360438",
+      "previous_sibling": "node_3_1699719479978"
+    },
+    {
+      "type": "standard",
+      "title": "Slack",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O sucesso imediato começa com o Slack, seu QG digital\n\nDescubra um jeito flexível de conectar pessoas, parceiros de negócios e aplicativos. Integrado ao Salesforce Customer 360, o Slack impulsiona a produtividade e faz funcionar o trabalho colaborativo.\n\nCustos reduzidos, produtividade aprimorada e comunicação perfeita com os clientes.\n\nAumente a eficiência, graças a fluxos de trabalho automatizados.\nDê a todos o poder de automatizar tarefas manuais, com fluxos de trabalho flexíveis e mais de 2.500 apps integrados.\nImpulsione o desempenho da equipe, aprimorando a capacidade de tomada de decisão.\nTorne as previsões e recomendações inteligentes mais acionáveis, contextualizando-as de acordo com o cenário de ação.\nAprimore a tomada de decisão, usando dados em tempo real.\nResponda rapidamente às demandas dos clientes, incluindo-os no seu QG digital, graças ao Salesforce Data Cloud totalmente integrado.\n26% de aumento na produtividade dos colaboradores.*\n* Destaques globais das métricas de sucesso do Salesforce de 2022. Um estudo de 2022, baseado em 3.706 entrevistas com clientes nos EUA, Canadá, Reino Unido, Alemanha, França, Austrália, Índia, Cingapura, Japão e Brasil.\n\nTudo o que você precisa para alcançar o sucesso, se conectar e colaborar com eficiência.\n\nUnifique todas as equipes, compartilhando insights dos clientes em tempo real."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1698972427520",
+      "conditions": "@Listaprodutos:Slack",
+      "dialog_node": "node_6_1699194585610",
+      "previous_sibling": "node_9_1699194579562"
+    },
+    {
+      "type": "standard",
+      "title": "Técnicas e comom vender mais ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Técnicas e como vender mais - Estamos desenvolvendo est etapa ainda e logo traremos mais informações. Fique a vontade para digitar ou enviar um áudio com outras dúvidas ou para saber mais sobre a Sales Force."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1699193552406",
+      "conditions": "@Salescloud:(técnicas e como vender mais)",
+      "dialog_node": "node_6_1699213632224",
+      "previous_sibling": "node_2_1699213629933"
+    },
+    {
+      "type": "standard",
+      "title": "Formulários",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oferecemos a opção conveniente de preenchimento diretamente na página do navegador. Basta acessar: https://www.salesforce.com/br/form/contact/\n\nSe preferir, você também pode prosseguir aqui mesmo. Basta digitar, selecionar ou dizer SIM, e solicitaremos os dados necessários para ajudar você da melhor forma possível.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "Sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "Não"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "context": {
+        "Email": "<? input.text ?>",
+        "Segmento": "<? input.text ?>",
+        "Telefone": "<? input.text ?>",
+        "Descricao": "<? input.text ?>",
+        "Sobrenome": "<? input.text ?>",
+        "Nome_Sobrenome": "<? input.text ?>"
+      },
+      "conditions": "#Formularios",
+      "dialog_node": "node_6_1699719473658",
+      "previous_sibling": "node_9_1699719408306"
+    },
+    {
+      "type": "standard",
+      "title": "Solicitar senha",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$Nome_cadastro para finalizar, digite a senha que você vai utilizar para realizar seu Login."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1699798793929",
+      "context": {
+        "Email_cadastro": "<? input.text ?>"
+      },
+      "conditions": "$Email_cadastro",
+      "dialog_node": "node_6_1699798894484"
+    },
+    {
+      "type": "standard",
+      "title": "Condição não",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendi perfeitamente! Se não precisar de mais informações, sinta-se à vontade para encerrar a conversa."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1699719488148",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@Resposta_nao",
+      "dialog_node": "node_6_1699800172930",
+      "previous_sibling": "node_8_1699800169178"
+    },
+    {
+      "type": "standard",
+      "title": "Condição não",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendi perfeitamente! Se não precisar de mais informações, sinta-se à vontade para encerrar a conversa."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1698972429788",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@Resposta_nao",
+      "dialog_node": "node_6_1699804396802",
+      "previous_sibling": "node_2_1699804394645"
+    },
+    {
+      "type": "standard",
+      "title": "Saúde & Ciências da Vida",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Quando o trabalho flui, os resultados de saúde aumentam.\n\nReúna equipes com colaboração em tempo real por meio das soluções Slack-first de saúde e ciências biológicas. Envolva os colaboradores desde a integração, para que possam oferecer melhores experiências ao cliente de qualquer lugar.\n\nAcelere o tempo para aumentar o valor do seu negócio com a plataforma mais confiável do mundo.\nOfereça experiências digitais personalizadas em escala com uma visão de 360 e soluções específicas do setor em uma única plataforma. Com cliques, sem código, conduza inovação ainda mais rápido para ficar à frente da curva.\n\nObtenha melhores resultados com soluções do setor da saúde e ciências biológicas.\n\nPAYERS\n\nConstrua relacionamentos confiáveis com os pacientes.\nImpulsione a eficiência em toda a empresa para otimizar a colaboração e personalizar a jornada de saúde dos pacientes em todos os pontos de contato.\n\nOfereça experiências centradas no paciente.\nObtenha uma visão de 360 graus de pacientes e equipes com uma plataforma compatível com HIPAA. Conecte sistemas e equipes para desbloquear novos valores à partir dos seus dados, otimizar processos e criar novas oportunidades de engajamento proativo.\n\nOtimize a adesão de pacientes ao tratamento.\nFortaleça o recrutamento de pacientes ao tratamento, simplifique a inscrição e conduza os pacientes em sua jornada de saúde com uma visão holística do processo.\n\nAumente a velocidade de entrada no mercado com soluções de comercialização.\nTransforme a colaboração de vendas presencial e virtual e o engajamento do fornecedor para acelerar a entrega de valor e de resultados mais sólidos de negócio.\n\nFornece experiências de saúde governamental de última geração, em escala.\nComplete listas de trabalhos e colabore entre equipes com uma plataforma centralizada e triagem avançada para envolver melhor seus beneficiários, pacientes e residentes.\n\nPronto para aprender mais sobre soluções de saúde e ciências da vida?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "Sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "Não"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1698972430804",
+      "context": {
+        "Saude": "Saúde & Ciências da Vida"
+      },
+      "conditions": "@Saude_e_Ciencias_da_Vida && $Saude",
+      "dialog_node": "node_6_1699804901078",
+      "previous_sibling": "node_5_1699804898565"
+    },
+    {
+      "type": "standard",
+      "title": "Comunicação e Mídia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os clientes esperam mais dos provedores e, ao mesmo tempo, confiam menos neles. \n\nReconquiste a confiança com uma experiência de cliente que surpreenda, com envolvimento personalizado em todos os pontos.\n\nComunicações:\nA Salesforce oferece aos funcionários de comunicação acesso rápido a todas as informações dos clientes, para que possam promover um envolvimento de alto nível e experiências significativas nas áreas de vendas, serviços e marketing.\n\nMídia:\nResponda à revolução com envolvimento de clientes personalizado. Monetize facilmente os relacionamentos com uma experiência simplificada de assinatura e uma jornada vendas de anúncios bastante impulsionada. E inove o envolvimento com grande rapidez."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1698972430804",
+      "conditions": "$Comunicacao",
+      "dialog_node": "node_6_1699804909687",
+      "previous_sibling": "node_5_1699804907815"
+    },
+    {
+      "type": "standard",
+      "title": "Condição sim",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1699805827315",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1699726630442"
+      },
+      "conditions": "@Resposta_Sim",
+      "dialog_node": "node_6_1699805830853"
+    },
+    {
+      "type": "standard",
+      "title": "Condição não",
+      "parent": "node_1_1699724012698",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1699723462988"
+      },
+      "conditions": "@Resposta_nao",
+      "dialog_node": "node_6_1699808584293",
+      "previous_sibling": "node_3_1699724732613"
+    },
+    {
+      "type": "standard",
+      "title": "Condição Não",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estou te direcionando para lista de produtos, mas fique a vontade para digitar ou falar o que você precisa."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1699211976233",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1698972427520"
+      },
+      "conditions": "@Resposta_nao",
+      "dialog_node": "node_6_1700407056301",
+      "previous_sibling": "node_10_1700407032499"
+    },
+    {
+      "type": "standard",
+      "title": "Commerce cloud ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maximize sua receita agora mesmo\nObtenha valor rapidamente — da descoberta à entrega — na plataforma que já conquistou a confianças das maiores marcas do mercado.\n\nReduza as despesas. Aumente as vendas. Adapte-se rapidamente com Commerce Cloud.\n\nMova-se rapidamente com ferramentas flexíveis e automação.\nEconomize tempo e dinheiro. Lance do seu jeito, rapidamente, com o headless commerce.\n\nAumente sua receita com recomendações inteligentes.\nObtenha mais conversões com menos trabalho usando IA.\n\nCrie relacionamentos confiáveis com os dados em tempo real do Salesforce Genie.\nEntregue experiências personalizadas por meio de jornadas de clientes conectadas.\n\nEncontre o sucesso agora com um comércio poderoso e ágil.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1698972427520",
+      "conditions": "@Listaprodutos:(Commerce Cloud)",
+      "dialog_node": "node_7_1699194555296",
+      "previous_sibling": "node_2_1699194550418"
+    },
+    {
+      "type": "standard",
+      "title": "Condição sim",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vou explicar melhor sobre essa solução. Caso deseje contato do nosso time de especialista, selecione, digite ou apenas fale SIM.\n\nCrie relacionamentos confiáveis atendendo famílias e empresas de qualquer lugar.\n\nAcelere a transformação e construa relações de segurança com o Financial Services Cloud.\n\n\nOPERAÇÕES BANCÁRIAS CORPORATIVAS E DE INVESTIMENTOS\n\nGanhe mais requisitos de negócios com insights de clientes e conformidade integrada.\nCapacite os banqueiros, analistas e gerentes de conformidade seniores e chefes de grupo para impulsionar relacionamentos mais profundos com clientes. Gerencie canais, colabore com eficiência entre equipes de negócios, aproveite dados internos e de terceiros e garanta que as informações sejam compartilhadas com as pessoas certas no momento certo.\n\nAumente a produtividade dos bancos de investimento e a colaboração para manter a conformidade.\nVeja como a inovação no setor bancário corporativo e de investimentos da Salesforce impulsiona a produtividade, a colaboração e a conformidade dos banqueiros em todo o ciclo de vida do negócio.\n\nOPERAÇÕES BANCÁRIAS COMERCIAIS E DE VAREJO\n\nConheça seus clientes como nunca.\nEntenda quem são seus clientes, quais produtos financeiros eles têm e o que precisam para atingir suas metas de vida. Com visibilidade total dos perfis financeiros dos clientes, você pode unir seu banco e fomentar a fidelidade com vendas baseadas nas necessidades.\n\nRecupere-se de crises.\nSaiba como os prestadores de serviços bancários e credores podem se reconstruir para um futuro totalmente digital\n\nSEGUROS\n\nUnifique as experiências de seguro.\nVeja a incrível revelação da nossa nova inovação em seguros para o Financial Services Cloud e saiba como ela pode ajudar você a construir uma confiança sólida do cliente.\n\nAproxime seguradoras e segurados.\nOfereça conselhos, resolva declarações e tranquilize os segurados. Com uma visão única e abrangente de cada segurado, agentes, corretores e representantes de serviço podem fazer mais por seus clientes e em tempo recorde.\n\nGERENCIAMENTO DE BENS E ATIVOS\n\nTome decisões mais inteligentes e rápidas\nFortaleça as relações com os clientes oferecendo aconselhamento financeiro mais rápido e personalizado. Com uma visão completa das metas, contas, dos investimentos e muito mais, você pode entrar em contato proativamente com os clientes quando as oportunidades surgirem e antecipar as expectativas deles.\n\nAprofunde e aumente a sua carteira de negócios.\nAproveite mais visibilidade do ecossistema de patrimônio familiar de um cliente e obtenha uma visão holística dos ativos gerenciados e retidos. Acompanhe os principais relacionamentos de seus clientes e descubra novas oportunidades para aprofundar e expandir sua carteira de negócios em várias redes.\n\nHIPOTECA E EMPRÉSTIMO\n\nSimplifique as experiências de empréstimo.\nAumentar a velocidade, a transparência e o trabalho em equipe durante todo o processo de hipoteca. Expanda seus negócios abordando clientes potenciais mais cedo. Aprofunde as relações com mutuários com uma visão completa das finanças deles. E inspirar confiança com uma abordagem criada para colaboração aberta.\n\nSimplifique o processo de hipoteca.\nReduza a complexidade para agentes de crédito e mutuários com processos guiados e conectados em qualquer sistema ou canal. Consolide dados relevantes em uma única visualização, facilitando o acompanhamento do progresso, o gerenciamento da documentação e a colaboração em cada etapa do caminho."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Conheça as vantagens da Salesforce para a área de serviços financeiros.",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "Sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "Nâo"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1699804898565",
+      "conditions": "@Resposta_Sim",
+      "dialog_node": "node_7_1699805162096"
+    },
+    {
+      "type": "standard",
+      "title": "Condição não",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendi perfeitamente! Se não precisar de mais informações, sinta-se à vontade para encerrar a conversa."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1699804898565",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@Resposta_nao",
+      "dialog_node": "node_7_1699805164031",
+      "previous_sibling": "node_7_1699805162096"
+    },
+    {
+      "type": "standard",
+      "title": "Condição Sim",
+      "parent": "node_8_1699212533364",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1699798600011"
+      },
+      "conditions": "@Resposta_Sim",
+      "dialog_node": "node_7_1700406626047"
+    },
+    {
+      "type": "standard",
+      "title": "Produto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Abaixo segue a lista de alguns produtos que a Sales Force oferece:\n1. Sales cloud,\n2. Service cloud,\n3. Marketing cloud,\n4. Commerce cloud,\n5. Data cloud,\n6. Tableau,\n7. Mulesoft,\n8. Slack,\n9. Salesforce Platform,\n10. Sustentabilidade\n\nDigite o nome do produto desejado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Produto",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1698972427520",
+      "previous_sibling": "node_2_1699719426191"
+    },
+    {
+      "type": "standard",
+      "title": "Ferramentas do sales cloud ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Explicar revenue Intelligence e Account Engagement. Estamos desenvolvendo est etapa ainda e logo traremos mais informações. Fique a vontade para digitar ou enviar um áudio com outras dúvidas ou para saber mais sobre a Sales Force."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1699193552406",
+      "conditions": "@Salescloud:Ferramentas",
+      "dialog_node": "node_8_1699212037515",
+      "previous_sibling": "node_4_1699211976233"
+    },
+    {
+      "type": "standard",
+      "title": "Visão geral do sales cloud ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acelere o crescimento das vendas.\nCom o sistema de vendas da Salesforce, você pode expandir suas contas, encontrar novos clientes e fechar negócios com mais rapidez e de qualquer lugar.\n\nFeche mais negócios.\nNão importa o tamanho de sua empresa, todos os agentes de vendas têm uma meta em comum: o desejo de terem um desempenho superior. No entanto é difícil conseguir isso sozinho, e é por isso que nós vamos ajudar você.\nObtenha mais leads.\nCrie a sua própria \"máquina de leads\" para aprimorar as taxas de conversão e aumentar a receita.\n\nAcelere a produtividade.\nTodos os negócios. Todos os dias. Veja a seguir seis recursos do Sales Cloud que ajudam a priorizar o mais importante: trabalhar com os clientes para fechar negócios. Em qualquer lugar.\n\nTome decisões com base em insights.\nDo insight à ação, não existe nada mais satisfatório do que transformar dados em insights práticos que todos podem acessar de qualquer lugar.\n\nComece a usar a avaliação gratuita.\nAprimore seus insights com o Sales Cloud. A melhor maneira de conhecer o Sales Cloud é começar a usar o produto real. Registre-se para uma avaliação gratuita já.\nLink: Teste gratuito por 30 dias - Salesforce.com Brasil \n\t\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Deseja realizar seu cadastro? Basta dizer ou digitar SIM, que vou direcionar você para o cadastro e teste gratuito. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1699193552406",
+      "conditions": "@Salescloud:(Visao geral)",
+      "dialog_node": "node_8_1699212533364"
+    },
+    {
+      "type": "standard",
+      "title": "Cadastro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fico feliz em saber que você deseja se juntar a nós. Vou solicitar alguns dados e criar seu cadastro. Está pronto? Digite ou fale SIM para continuar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "Sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "Não"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "context": {
+        "Nome_cadastro": "<? input.text ?>",
+        "Email_cadastro": "<? input.text ?>",
+        "Senha_cadastro": "<? input.text ?>"
+      },
+      "conditions": "#Cadastro",
+      "dialog_node": "node_8_1699712369274",
+      "previous_sibling": "node_3_1698972431854"
+    },
+    {
+      "type": "standard",
+      "title": "Feedback e Elogios",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fico feliz em saber que você deseja contribuir para melhorarmos nossos processos e produtos. Digite ou fale SIM para continuar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "Sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "Não"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "context": {
+        "Nome_feedback": "<? input.text ?>",
+        "Email_feedback": "<? input.text ?>",
+        "Telefone_feedback": "<? input.text ?>",
+        "Descricao_feedback": "<? input.text ?>"
+      },
+      "conditions": "#Feedback",
+      "dialog_node": "node_8_1699719488148",
+      "previous_sibling": "node_6_1699719473658"
+    },
+    {
+      "type": "standard",
+      "title": "Solicitar telefone",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite ou fale seu telefone"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1699726630442",
+      "context": {
+        "Nome_Sobrenome": "<? input.text ?>"
+      },
+      "conditions": "$Nome_Sobrenome",
+      "dialog_node": "node_8_1699726862498"
+    },
+    {
+      "type": "standard",
+      "title": "Condição sim",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual seu nome?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1699719488148",
+      "conditions": "@Resposta_Sim",
+      "dialog_node": "node_8_1699800169178"
+    },
+    {
+      "type": "standard",
+      "title": "Solicitare-mail",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$Nome_feedback digite seu e-mail."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1699800169178",
+      "context": {
+        "Nome_feedback": "<? input.text ?>"
+      },
+      "conditions": "$Nome_feedback",
+      "dialog_node": "node_8_1699800170195"
+    },
+    {
+      "type": "standard",
+      "title": "Condição sim",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seus dados foram enviados. Obrigado pelas informações e tenha um ótimo dia."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1699803230711",
+      "conditions": "@Resposta_Sim",
+      "dialog_node": "node_8_1699803578759"
+    },
+    {
+      "type": "standard",
+      "title": "Condição não",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo, como os dados não conferem, vamos começar novamente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1699803230711",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1699800169178"
+      },
+      "conditions": "@Resposta_nao",
+      "dialog_node": "node_8_1699803610819",
+      "previous_sibling": "node_8_1699803578759"
+    },
+    {
+      "type": "standard",
+      "title": "Setor Público",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Setor Público\n\nO aumento dos clientes conectados redefiniu as expectativas de interação com o governo. Apoie as necessidades dos cidadãos conectados da atualidade aprimorando o envolvimento, criando confiança e gerando inovações extremamente rápidas.\n\nCidade:\nAs tendências tecnológicas estão transformando as cidades. Esta é uma oportunidade para conectar melhor as pessoas ao governo, criando uma nova base para a sua missão.\n\nEstado:\nOs estados estão enfrentando um novo paradigma enquanto tecnologia, tenacidade e determinação geram inovação, que redefine o significado do crescimento.\n\nFederal:\nAs empresas estão modernizando as operações, transformando as transições tecnológicas em sucesso financeiro. Utilize as práticas recomendadas desenvolvidas com as empresas, por meio de tentativa e erro, para gerar missões bem-sucedidas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1698972430804",
+      "conditions": "$Setor",
+      "dialog_node": "node_8_1699804911557",
+      "previous_sibling": "node_6_1699804909687"
+    },
+    {
+      "type": "standard",
+      "title": "Condição não",
+      "parent": "node_5_1699805827315",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@Resposta_nao",
+      "dialog_node": "node_8_1699805832841",
+      "previous_sibling": "node_6_1699805830853"
+    },
+    {
+      "type": "standard",
+      "title": "Condição sim",
+      "parent": "node_3_1698972431854",
+      "conditions": "@Resposta_Sim",
+      "dialog_node": "node_8_1699808992790"
+    },
+    {
+      "type": "standard",
+      "title": "Condição não",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendi perfeitamente! Se não precisar de mais informações, sinta-se à vontade para encerrar a conversa."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1699798993596",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "dialog_node": "node_8_1699809222950",
+      "previous_sibling": "node_4_1699809221258"
+    },
+    {
+      "type": "standard",
+      "title": "Clientes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "HISTÓRIA DE SUCESSO DO CLIENTE\n\nAudi do Brasil acelera a estratégia de digitalização e inovação, aumentando automação com foco na visão 360º do cliente.\n\nConhecer o cliente é prioridade em fintech com mais de 20 milhões de correntistas.\n\nAmarante prioriza relacionamento com cliente para ganhar mais independência\n\nJá pensou sua empresa fazer história assim como esses modelos? Junte-se a nós e vamos melhorar a experiência do seu cliente.\n\nDeseja nosso contato?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "Sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "Não"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Clientes",
+      "dialog_node": "node_9_1698972429788",
+      "previous_sibling": "node_3_1698972428660"
+    },
+    {
+      "type": "standard",
+      "title": "Service cloud ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Find an AI solution tailored to your business needs.\nLearn how Customer 360, our entire suite of products, helps you connect with your customers in a whole new way. With trusted AI, data, and CRM, your marketing, sales, commerce, service, IT, and data teams are more productive than ever.\n\n1. Answer four quick questions to get your personalized AI solution guide\n\n2. See results based on your industry, role, company size, and goals\n\n3. Explore the products included in your solution, including demos and customer stories"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1698972427520",
+      "conditions": "@Listaprodutos:(Service Cloud)",
+      "dialog_node": "node_9_1699194524189",
+      "previous_sibling": "node_3_1699193552406"
+    },
+    {
+      "type": "standard",
+      "title": "Tableau",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tome decisões acompanhando a velocidade de mudanças para proporcionar sucesso imediato\nDescubra as conexões entre dados, insights e melhores resultados de negócios com a análise completa.\n\nMelhore os resultados com o Tableau.\nAnálise automatizada em todos os seus dados.\n\nVisualize e explore todos os seus dado para obter insights automatizados para toda a empresa.\n\nTome decisões melhores com a IA.\nUse previsões inteligentes, recomendações e fluxos para obter respostas a dúvidas essenciais de negócios.\n\nColabore e tome atitudes sobre os insights em tempo real no Tableau Genie.\nTome atitudes em tempo real e mantenha seus dados no centro de cada decisão, diretamente no fluxo de trabalho.\n\nPotencialize dados confiáveis com governança.\nDisponibilize dados seguros e de alta qualidade onde precisar, garantindo visibilidade e controle.\n\nObtenha sucesso imediato com as ferramentas que você precisa para tornar os dados executáveis."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1698972427520",
+      "conditions": "@Listaprodutos:Tableau",
+      "dialog_node": "node_9_1699194572196",
+      "previous_sibling": "node_1_1699194560660"
+    },
+    {
+      "type": "standard",
+      "title": "Mulesoft",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Automatize tudo.\n\nCapacite todos.\n\nCrie uma experiência cativante.\n\nCom a MuleSoft, integre dados de qualquer sistema e automatize tarefas complexas para fornecer experiências do cliente conectadas mais rapidamente.\n\nImpulsione a produtividade, reduza custos e acelere o time to market com a MuleSoft.\n\nCapacite suas equipes e automatize tudo com cliques ou código.\nDê às suas equipes as ferramentas certas para as tarefas certas.\n\nEntregue experiências inteligentes e rápidas para os clientes.\nSimplifique processos complexos e mude a maneira como o trabalho flui.\n\nIntegre qualquer sistema e libere o poder dos dados em tempo real com o Salesforce Genie.\n\nObtenha mais valor com a consolidação de todos os seus sistemas e dados, de qualquer origem.\n\nIntegre todos os sistemas, dentro e fora do Salesforce, para alcançar o sucesso imediato."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1698972427520",
+      "conditions": "@Listaprodutos:Mulesoft",
+      "dialog_node": "node_9_1699194579562",
+      "previous_sibling": "node_9_1699194572196"
+    },
+    {
+      "type": "standard",
+      "title": "Sales force platform",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Crie apps, acelere a automação e alcance o sucesso imediato\nAutomatize processos, crie apps melhores e proteja dados em todo o Customer 360.\n\nConte com a Plataforma Salesforce para impulsionar a eficiência e economizar em custos de TI.\n\nAutomatize com facilidade.\nSimplifique tarefas, usando automação e ferramentas low-code para conectar toda a sua organização.\n\nDesenvolva e opere apps inteligentes, de maneira escalável.\nCrie, teste e forneça apps para o público interno e clientes. Acelere o time to value, usando ferramentas de gerenciamento de versão e atualizações.\n\nProteja e ative seus dados em tempo real com o Salesforce Genie.\nConecte e harmonize dados para aumentar a eficiência em todas as equipes por todo o Customer 360.\n\nEleve o padrão dos negócios e alcance o sucesso imediato."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1698972427520",
+      "conditions": "@Listaprodutos:(Salesforce platform)",
+      "dialog_node": "node_9_1699194590770",
+      "previous_sibling": "node_6_1699194585610"
+    },
+    {
+      "type": "standard",
+      "title": "Visão geral do service cloud ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Uma plataforma de dados em hiperescala integrada à Salesforce.\n\nAtive todos dados dos seus clientes nos diversos apps da Salesforce com o Data Cloud. Capacite as equipes a envolver os clientes, em cada ponto de contato, com insights relevantes e dados contextuais no fluxo do trabalho.\n\nEquipes orientadas por dados desenvolvem relações significativas com o Data Cloud.\n\nO que você pode alcançar com o Data Cloud?\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1699194524189",
+      "conditions": "@Servicecloud:(Visão geral)",
+      "dialog_node": "node_9_1699214206667"
+    },
+    {
+      "type": "standard",
+      "title": "Automação de atendimento ao cliente ",
+      "parent": "node_9_1699194524189",
+      "conditions": "@Servicecloud:(Automação de Atendimento ao Cliente: benefícios IA)",
+      "dialog_node": "node_9_1699214678250",
+      "previous_sibling": "node_4_1699214677151"
+    },
+    {
+      "type": "standard",
+      "title": "Alterar Cadastro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para atualizar suas informações de login, é simples: acesse a área superior da página onde encontrará o campo de login.\n\nContudo, se houver a necessidade de modificar outros detalhes cadastrais, sugerimos o uso do formulário de contato disponível no link https://www.salesforce.com/br/form/signup/freetrial-sales-pe/?d=70130000000EqoPAAS.\n\nCaso prefira, você pode simplificar ainda mais o processo, digitando, selecionando, ou até mesmo dizendo 'SIM' para que possamos guiá-lo de maneira eficaz durante o preenchimento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "Sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "Não"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Alterar_Cadastro",
+      "dialog_node": "node_9_1699719408306",
+      "previous_sibling": "node_8_1699712369274"
+    },
+    {
+      "type": "standard",
+      "title": "Condição sim",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite ou fale seu nome:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1699719479978",
+      "context": {},
+      "conditions": "@Resposta_Sim",
+      "dialog_node": "node_9_1699723462988"
+    },
+    {
+      "type": "standard",
+      "title": "Descriação da reclamação",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$Nome agora digite a descrição da reclamação."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1699723901489",
+      "context": {
+        "Email": "<? input.text ?>"
+      },
+      "conditions": "$Email",
+      "dialog_node": "node_9_1699723925431"
+    },
+    {
+      "type": "standard",
+      "title": "Condição não",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo, como os dados não conferem, vamos começar novamente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1699798959596",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1699798600011"
+      },
+      "conditions": "@Resposta_nao",
+      "dialog_node": "node_9_1699799338977",
+      "previous_sibling": "node_1_1699798993596"
+    },
+    {
+      "type": "standard",
+      "title": "Condição sim",
+      "parent": "node_9_1699719408306",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1699726630442"
+      },
+      "conditions": "@Resposta_Sim",
+      "dialog_node": "node_9_1699799897173"
+    },
+    {
+      "type": "standard",
+      "title": "Condição não",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendi perfeitamente! Se não precisar de mais informações, sinta-se à vontade para encerrar a conversa."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1699719408306",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@Resposta_nao",
+      "dialog_node": "node_9_1699799917603",
+      "previous_sibling": "node_9_1699799897173"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmação dos dados",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$Nome_feedback selecione, digite ou fale SIM caso as informações estejam corretas.\n\nE-mail: $Email_feedback\nTelefone: $Telefone_feedback\nDescrição: $Descricao_feedback"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "Sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "Não"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1699803157174",
+      "context": {
+        "Descricao_feedback": "<? input.text ?>"
+      },
+      "conditions": "$Descricao_feedback",
+      "dialog_node": "node_9_1699803230711"
+    },
+    {
+      "type": "standard",
+      "parent": "node_7_1699805162096",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1699726630442"
+      },
+      "conditions": "@Resposta_Sim",
+      "dialog_node": "node_9_1699805272987"
+    },
+    {
+      "type": "standard",
+      "title": "Condição não",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendi perfeitamente! Se não precisar de mais informações, sinta-se à vontade para encerrar a conversa."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1699719473658",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@Resposta_nao",
+      "dialog_node": "node_9_1699808081423",
+      "previous_sibling": "node_10_1699726630442"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1698972427520",
+      "dialog_node": "slot_6_1698973238139",
+      "previous_sibling": "node_10_1699194596434"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "generative_ai": {
+      "slot_filling": {
+        "enabled": false
+      }
+    },
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "",
+  "name": "Sales force bot-dialog"
+}

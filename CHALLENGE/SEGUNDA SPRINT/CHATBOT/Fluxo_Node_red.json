@@ -1,0 +1,1155 @@
+[
+    {
+        "id": "5062b4c5955bac93",
+        "type": "tab",
+        "label": "Fluxo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "66f05a6058585233",
+        "type": "group",
+        "z": "5062b4c5955bac93",
+        "name": "Processo para tratativa de sticker",
+        "style": {
+            "fill": "#d1d1d1",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "319a38c779ad77e6",
+            "9eabc37db01d9ddf",
+            "46515b6f68c7332f",
+            "5acd58e8940b775c"
+        ],
+        "x": 714,
+        "y": 39,
+        "w": 532,
+        "h": 142
+    },
+    {
+        "id": "70553592a79f93c3",
+        "type": "group",
+        "z": "5062b4c5955bac93",
+        "name": "Processo  para tratativa de vídeos",
+        "style": {
+            "fill": "#b797cf",
+            "label": true,
+            "color": "#6f2fa0"
+        },
+        "nodes": [
+            "12ab5eeee35f00c5",
+            "a914f654ca659709",
+            "98cd7472e628f72a",
+            "5f79554cd0cf457f"
+        ],
+        "x": 714,
+        "y": 199,
+        "w": 532,
+        "h": 142
+    },
+    {
+        "id": "30f4c5ac3a3cbe71",
+        "type": "group",
+        "z": "5062b4c5955bac93",
+        "name": "Processo para tratativa de aúdio",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "stroke": "#bfc7d7",
+            "fill": "#bfc7d7"
+        },
+        "nodes": [
+            "4565cbcce4bddac2",
+            "435cc1353dfedf55",
+            "837f03132f42512c",
+            "6fb04284d103bc5e",
+            "c0fb467f0c4da480",
+            "6d403b3ae607375b",
+            "5437f9e279c0f95e",
+            "8e6d594b3e6af50c",
+            "92e128ab686aec45",
+            "2068e06a1982e56f",
+            "fde880e6170d53a0",
+            "7c7dee51651c74a2",
+            "2cbf49f38180b639",
+            "3230609766d1c9b7",
+            "e519c5b2c7c0f0de",
+            "cf256b42606e8a11"
+        ],
+        "x": 714,
+        "y": 379,
+        "w": 2212,
+        "h": 142
+    },
+    {
+        "id": "315b97b4797f1371",
+        "type": "group",
+        "z": "5062b4c5955bac93",
+        "name": "Processo para tratativa de textos",
+        "style": {
+            "stroke": "#ffffbf",
+            "label": true,
+            "color": "#000000",
+            "fill": "#ffffbf"
+        },
+        "nodes": [
+            "6bf071f3d3b2d267",
+            "e047addf19c30407",
+            "fec10bd71d3fe8df",
+            "c5749e4e1c5ee87a",
+            "9dafc09ef23b5149",
+            "e6a4ada757d6da1a",
+            "99226edb67b6d72a",
+            "b31f50bae0c0c83c",
+            "8dd04f4b4f99abf7",
+            "4573743c4f8f9b5d"
+        ],
+        "x": 714,
+        "y": 579,
+        "w": 1512,
+        "h": 142
+    },
+    {
+        "id": "8ccae9a24801bc17",
+        "type": "group",
+        "z": "5062b4c5955bac93",
+        "name": "Processo para fotos",
+        "style": {
+            "stroke": "#e3f3d3",
+            "fill": "#e3f3d3",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "2e1c1625b3618262",
+            "a7a167e4e8347ecb",
+            "d4fecdb43e8043a2",
+            "11aafa4b6fcac80d"
+        ],
+        "x": 714,
+        "y": 919,
+        "w": 572,
+        "h": 122
+    },
+    {
+        "id": "fea1bdc9db113452",
+        "type": "group",
+        "z": "5062b4c5955bac93",
+        "name": "Processo para tratativa de GIF",
+        "style": {
+            "stroke": "#ffbfbf",
+            "fill": "#ffbfbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "f481e0dd96640e99",
+            "b2d38605016ed26b",
+            "b95bddaa626a2eda",
+            "43b97c4e10d2895f"
+        ],
+        "x": 714,
+        "y": 759,
+        "w": 572,
+        "h": 122
+    },
+    {
+        "id": "e00c63015f5210fc",
+        "type": "debug",
+        "z": "5062b4c5955bac93",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 140,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "319a38c779ad77e6",
+        "type": "debug",
+        "z": "5062b4c5955bac93",
+        "g": "66f05a6058585233",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1140,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "9eabc37db01d9ddf",
+        "type": "function",
+        "z": "5062b4c5955bac93",
+        "g": "66f05a6058585233",
+        "name": "Sticker",
+        "func": "msg.payload = {\n    'content': \"Ainda não conseguimos compreender o formato 'sticker'. Por favor, insira um texto ou envie um áudio para uma interação mais clara.\",\n    'chatId':msg.params.session_id,\n    'type': \"message\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 140,
+        "wires": [
+            [
+                "46515b6f68c7332f",
+                "5acd58e8940b775c"
+            ]
+        ]
+    },
+    {
+        "id": "46515b6f68c7332f",
+        "type": "debug",
+        "z": "5062b4c5955bac93",
+        "g": "66f05a6058585233",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "5fb8ac7ebf9956e7",
+        "type": "switch",
+        "z": "5062b4c5955bac93",
+        "name": "Análise do tipo",
+        "property": "payload.type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "sticker",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "video",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "voice",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "message",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "animation",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "photo",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 6,
+        "x": 540,
+        "y": 580,
+        "wires": [
+            [
+                "9eabc37db01d9ddf"
+            ],
+            [
+                "12ab5eeee35f00c5"
+            ],
+            [
+                "fde880e6170d53a0"
+            ],
+            [
+                "e047addf19c30407"
+            ],
+            [
+                "f481e0dd96640e99"
+            ],
+            [
+                "2e1c1625b3618262"
+            ]
+        ]
+    },
+    {
+        "id": "3ff3ed40f1d9bf07",
+        "type": "function",
+        "z": "5062b4c5955bac93",
+        "name": "Entrada",
+        "func": "msg.params = {\n    \"session_id\":msg.payload.chatId\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 520,
+        "wires": [
+            [
+                "cc058631829933e1",
+                "5fb8ac7ebf9956e7"
+            ]
+        ]
+    },
+    {
+        "id": "12ab5eeee35f00c5",
+        "type": "function",
+        "z": "5062b4c5955bac93",
+        "g": "70553592a79f93c3",
+        "name": "Video",
+        "func": "msg.payload = {\n    'content': \"A compreensão do formato 'vídeo' ainda não está disponível. Por favor, insira um texto ou envie um áudio para uma interação mais eficaz.\",\n    'chatId':msg.params.session_id,\n    'type': \"message\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 300,
+        "wires": [
+            [
+                "98cd7472e628f72a",
+                "5f79554cd0cf457f"
+            ]
+        ]
+    },
+    {
+        "id": "e047addf19c30407",
+        "type": "function",
+        "z": "5062b4c5955bac93",
+        "g": "315b97b4797f1371",
+        "name": "Texto",
+        "func": "context.flow.chatId = msg.payload.chatId;\ncontext.flow.type = msg.payload.type;\nmsg.payload = msg.payload.content;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 680,
+        "wires": [
+            [
+                "6bf071f3d3b2d267",
+                "fec10bd71d3fe8df"
+            ]
+        ]
+    },
+    {
+        "id": "fde880e6170d53a0",
+        "type": "function",
+        "z": "5062b4c5955bac93",
+        "g": "30f4c5ac3a3cbe71",
+        "name": "Audio",
+        "func": "msg.params = {\n    \"session_id\":msg.payload.chatId\n}\nmsg.payload = msg.payload.weblink;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 480,
+        "wires": [
+            [
+                "92e128ab686aec45",
+                "2068e06a1982e56f"
+            ]
+        ]
+    },
+    {
+        "id": "a914f654ca659709",
+        "type": "debug",
+        "z": "5062b4c5955bac93",
+        "g": "70553592a79f93c3",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1140,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "5437f9e279c0f95e",
+        "type": "debug",
+        "z": "5062b4c5955bac93",
+        "g": "30f4c5ac3a3cbe71",
+        "name": "debug 14",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2820,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "9dafc09ef23b5149",
+        "type": "debug",
+        "z": "5062b4c5955bac93",
+        "g": "315b97b4797f1371",
+        "name": "debug 19",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2120,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "435cc1353dfedf55",
+        "type": "function",
+        "z": "5062b4c5955bac93",
+        "g": "30f4c5ac3a3cbe71",
+        "name": "Saida em audio",
+        "func": "msg.payload = {\n    'content': msg.payload,\n    'chatId': msg.params.session_id,\n    'type': \"voice\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2500,
+        "y": 480,
+        "wires": [
+            [
+                "6d403b3ae607375b",
+                "cf256b42606e8a11"
+            ]
+        ]
+    },
+    {
+        "id": "6fb04284d103bc5e",
+        "type": "debug",
+        "z": "5062b4c5955bac93",
+        "g": "30f4c5ac3a3cbe71",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1380,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "6bf071f3d3b2d267",
+        "type": "debug",
+        "z": "5062b4c5955bac93",
+        "g": "315b97b4797f1371",
+        "name": "debug 15",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "c5749e4e1c5ee87a",
+        "type": "debug",
+        "z": "5062b4c5955bac93",
+        "g": "315b97b4797f1371",
+        "name": "debug 16",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1180,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "837f03132f42512c",
+        "type": "debug",
+        "z": "5062b4c5955bac93",
+        "g": "30f4c5ac3a3cbe71",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1720,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "8e6d594b3e6af50c",
+        "type": "debug",
+        "z": "5062b4c5955bac93",
+        "g": "30f4c5ac3a3cbe71",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "2068e06a1982e56f",
+        "type": "debug",
+        "z": "5062b4c5955bac93",
+        "g": "30f4c5ac3a3cbe71",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "98cd7472e628f72a",
+        "type": "debug",
+        "z": "5062b4c5955bac93",
+        "g": "70553592a79f93c3",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "2e1c1625b3618262",
+        "type": "function",
+        "z": "5062b4c5955bac93",
+        "g": "8ccae9a24801bc17",
+        "name": "Foto",
+        "func": "msg.payload = {\n    'content': \"Meus criadores ainda não me ensinaram a ver imagens. Por favor, digite texto ou envie audio.\",\n    'chatId':msg.params.session_id,\n    'type': \"message\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 1000,
+        "wires": [
+            [
+                "a7a167e4e8347ecb",
+                "d4fecdb43e8043a2"
+            ]
+        ]
+    },
+    {
+        "id": "4565cbcce4bddac2",
+        "type": "debug",
+        "z": "5062b4c5955bac93",
+        "g": "30f4c5ac3a3cbe71",
+        "name": "debug 12",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2320,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "1351222494e3982e",
+        "type": "telegram receiver",
+        "z": "5062b4c5955bac93",
+        "name": "Tokito",
+        "bot": "c06e6ad61923ed56",
+        "saveDataDir": "",
+        "filterCommands": false,
+        "x": 90,
+        "y": 520,
+        "wires": [
+            [
+                "e00c63015f5210fc",
+                "3ff3ed40f1d9bf07"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "5acd58e8940b775c",
+        "type": "telegram sender",
+        "z": "5062b4c5955bac93",
+        "g": "66f05a6058585233",
+        "name": "Sender 1 - sticker",
+        "bot": "c06e6ad61923ed56",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1030,
+        "y": 140,
+        "wires": [
+            [
+                "319a38c779ad77e6"
+            ]
+        ]
+    },
+    {
+        "id": "5f79554cd0cf457f",
+        "type": "telegram sender",
+        "z": "5062b4c5955bac93",
+        "g": "70553592a79f93c3",
+        "name": "Sender 2 - video",
+        "bot": "c06e6ad61923ed56",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1020,
+        "y": 300,
+        "wires": [
+            [
+                "a914f654ca659709"
+            ]
+        ]
+    },
+    {
+        "id": "6d403b3ae607375b",
+        "type": "telegram sender",
+        "z": "5062b4c5955bac93",
+        "g": "30f4c5ac3a3cbe71",
+        "name": "Sender 3 - Voice",
+        "bot": "c06e6ad61923ed56",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 2730,
+        "y": 480,
+        "wires": [
+            [
+                "5437f9e279c0f95e"
+            ]
+        ]
+    },
+    {
+        "id": "e6a4ada757d6da1a",
+        "type": "telegram sender",
+        "z": "5062b4c5955bac93",
+        "g": "315b97b4797f1371",
+        "name": "Sender 4 - texto",
+        "bot": "c06e6ad61923ed56",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 2020,
+        "y": 680,
+        "wires": [
+            [
+                "9dafc09ef23b5149"
+            ]
+        ]
+    },
+    {
+        "id": "a7a167e4e8347ecb",
+        "type": "telegram sender",
+        "z": "5062b4c5955bac93",
+        "g": "8ccae9a24801bc17",
+        "name": "Sender 6 - Foto",
+        "bot": "c06e6ad61923ed56",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1120,
+        "y": 1000,
+        "wires": [
+            [
+                "11aafa4b6fcac80d"
+            ]
+        ]
+    },
+    {
+        "id": "fec10bd71d3fe8df",
+        "type": "watson-assistant-v2",
+        "z": "5062b4c5955bac93",
+        "g": "315b97b4797f1371",
+        "name": "Tokito - Watson-2",
+        "service-endpoint": "https://api.us-east.assistant.watson.cloud.ibm.com/instances/e0771cd9-c1d2-4b8e-b057-f554aa3c898e",
+        "assistant_id": "742a7fa8-273d-4074-86a2-4e30f2830c70",
+        "debug": false,
+        "restart": false,
+        "return_context": true,
+        "alternate_intents": false,
+        "multisession": true,
+        "timeout": "",
+        "optout-learning": false,
+        "persist-session-id": false,
+        "x": 1030,
+        "y": 680,
+        "wires": [
+            [
+                "c5749e4e1c5ee87a",
+                "99226edb67b6d72a"
+            ]
+        ]
+    },
+    {
+        "id": "c0fb467f0c4da480",
+        "type": "watson-assistant-v2",
+        "z": "5062b4c5955bac93",
+        "g": "30f4c5ac3a3cbe71",
+        "name": "Tokito-Watson-1",
+        "service-endpoint": "https://api.us-east.assistant.watson.cloud.ibm.com/instances/e0771cd9-c1d2-4b8e-b057-f554aa3c898e",
+        "assistant_id": "742a7fa8-273d-4074-86a2-4e30f2830c70",
+        "debug": false,
+        "restart": false,
+        "return_context": true,
+        "alternate_intents": false,
+        "multisession": true,
+        "timeout": "",
+        "optout-learning": false,
+        "persist-session-id": false,
+        "x": 1340,
+        "y": 480,
+        "wires": [
+            [
+                "6fb04284d103bc5e",
+                "7c7dee51651c74a2"
+            ]
+        ]
+    },
+    {
+        "id": "92e128ab686aec45",
+        "type": "watson-speech-to-text",
+        "z": "5062b4c5955bac93",
+        "g": "30f4c5ac3a3cbe71",
+        "name": "Transformar audio em texto",
+        "alternatives": 1,
+        "speakerlabels": true,
+        "smartformatting": false,
+        "lang": "pt-BR",
+        "langhidden": "pt-BR",
+        "langcustom": "NoCustomisationSetting",
+        "langcustomhidden": "",
+        "custom-weight": "0.5",
+        "band": "BroadbandModel",
+        "bandhidden": "BroadbandModel",
+        "keywords": "",
+        "keywords-threshold": "0.5",
+        "word-confidence": false,
+        "password": "",
+        "apikey": "o83gLWphJNERBTsywUcrHRMQdYZHG4Tv330RBZrNrbWe",
+        "payload-response": true,
+        "streaming-mode": false,
+        "streaming-mute": true,
+        "auto-connect": false,
+        "discard-listening": false,
+        "disable-precheck": false,
+        "service-endpoint": "https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/536c08a5-a582-4cc9-b036-cefbbb5d6283",
+        "x": 1040,
+        "y": 480,
+        "wires": [
+            [
+                "8e6d594b3e6af50c",
+                "c0fb467f0c4da480"
+            ]
+        ]
+    },
+    {
+        "id": "d4fecdb43e8043a2",
+        "type": "debug",
+        "z": "5062b4c5955bac93",
+        "g": "8ccae9a24801bc17",
+        "name": "debug 22",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "7c7dee51651c74a2",
+        "type": "function",
+        "z": "5062b4c5955bac93",
+        "g": "30f4c5ac3a3cbe71",
+        "name": "Saida Watson",
+        "func": "// Verifica se output.generic existe e é um array\nif (msg.payload && msg.payload.output && msg.payload.output.generic && Array.isArray(msg.payload.output.generic)) {\n    // Inicializa um array para armazenar os textos coletados\n    const collectedTexts = [];\n\n    // Percorre o array output.generic\n    for (const genericItem of msg.payload.output.generic) {\n        // Verifica se genericItem.text existe e é uma string\n        if (genericItem.text && typeof genericItem.text === 'string') {\n            // Adiciona o texto ao array\n            collectedTexts.push(genericItem.text);\n        }\n    }\n\n    // Atribui o array de textos coletados de volta a msg.payload\n    msg.payload = collectedTexts;\n} else {\n    // Caso output.generic não exista ou não seja um array, mantenha a estrutura original\n    msg.payload = [];\n}\n\n// Retorna a mensagem modificada\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1600,
+        "y": 480,
+        "wires": [
+            [
+                "837f03132f42512c",
+                "2cbf49f38180b639"
+            ]
+        ]
+    },
+    {
+        "id": "2cbf49f38180b639",
+        "type": "function",
+        "z": "5062b4c5955bac93",
+        "g": "30f4c5ac3a3cbe71",
+        "name": "Unir as Strings",
+        "func": "// Verifica se msg.payload é um array\nif (Array.isArray(msg.payload)) {\n    // Converte o array de textos em uma única string, separando cada texto por uma quebra de linha\n    const textToSpeechInput = msg.payload.join('\\n');\n\n    // Atribui a string resultante de volta a msg.payload\n    msg.payload = textToSpeechInput;\n} else {\n    // Caso msg.payload não seja um array, mantenha a estrutura original\n    msg.payload = '';\n}\n\n// Retorna a mensagem modificada\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1900,
+        "y": 480,
+        "wires": [
+            [
+                "3230609766d1c9b7",
+                "e519c5b2c7c0f0de"
+            ]
+        ]
+    },
+    {
+        "id": "3230609766d1c9b7",
+        "type": "debug",
+        "z": "5062b4c5955bac93",
+        "g": "30f4c5ac3a3cbe71",
+        "name": "debug 11",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2000,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "99226edb67b6d72a",
+        "type": "function",
+        "z": "5062b4c5955bac93",
+        "g": "315b97b4797f1371",
+        "name": "Saida Watson Texto",
+        "func": "\n// Verifica se output.generic existe e é um array\nif (msg.payload && msg.payload.output && msg.payload.output.generic && Array.isArray(msg.payload.output.generic)) {\n    // Inicializa um array para armazenar as informações coletadas\n    const collectedInfo = [];\n\n    // Percorre o array output.generic\n    for (const genericItem of msg.payload.output.generic) {\n        // Verifica se genericItem.text existe e é uma string\n        if (genericItem.text && typeof genericItem.text === 'string') {\n            // Adiciona as informações ao array\n            const info = {\n                content: genericItem.text,\n                chatId: msg.params ? msg.params.session_id : '',\n                type: \"message\"\n            };\n            collectedInfo.push(info);\n        }\n    }\n\n    // Atribui o array de informações coletadas de volta a msg.payload\n    msg.payload = collectedInfo;\n} else {\n    // Caso output.generic não exista ou não seja um array, mantenha a estrutura original\n    msg.payload = {\n        content: '',\n        chatId: msg.params ? msg.params.session_id : '',\n        type: \"message\"\n    };\n}\n\n// Retorna a mensagem modificada\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1320,
+        "y": 680,
+        "wires": [
+            [
+                "8dd04f4b4f99abf7",
+                "b31f50bae0c0c83c"
+            ]
+        ]
+    },
+    {
+        "id": "b31f50bae0c0c83c",
+        "type": "function",
+        "z": "5062b4c5955bac93",
+        "g": "315b97b4797f1371",
+        "name": "Unir os conteúdos",
+        "func": "// Verifica se msg.payload existe e é um array/lista\nif (msg.payload && Array.isArray(msg.payload)) {\n    // Inicializa um array para armazenar os conteúdos coletados\n    const collectedContents = [];\n\n    // Percorre o array msg.payload\n    for (const item of msg.payload) {\n        // Verifica se item.content existe e é uma string / como neste processo não uso áudio, não tenho problema.\n        if (item.content && typeof item.content === 'string') {\n            // Adiciona o conteúdo ao array\n            collectedContents.push(item.content);\n        }\n    }\n\n    // Unir os conteúdos em uma única string, separando cada conteúdo por um espaço e uma quebra de linha\n    const combinedContents = collectedContents.join(' \\n');\n\n    // Atribui a string resultante à propriedade content de msg.payload\n    msg.payload = {\n        content: combinedContents,\n        chatId: msg.payload[0] ? msg.payload[0].chatId : '',\n        type: \"message\"\n    };\n} else {\n    // Caso msg.payload não exista ou não seja um array, mantenha a estrutura original\n    msg.payload = {\n        content: '',\n        chatId: '',\n        type: \"message\"\n    };\n}\n\n// Retorna a mensagem modificada\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1650,
+        "y": 680,
+        "wires": [
+            [
+                "4573743c4f8f9b5d",
+                "e6a4ada757d6da1a"
+            ]
+        ]
+    },
+    {
+        "id": "8dd04f4b4f99abf7",
+        "type": "debug",
+        "z": "5062b4c5955bac93",
+        "g": "315b97b4797f1371",
+        "name": "debug 17",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1500,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "4573743c4f8f9b5d",
+        "type": "debug",
+        "z": "5062b4c5955bac93",
+        "g": "315b97b4797f1371",
+        "name": "debug 18",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1800,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "f481e0dd96640e99",
+        "type": "function",
+        "z": "5062b4c5955bac93",
+        "g": "fea1bdc9db113452",
+        "name": "GIF",
+        "func": "msg.payload = {\n    'content': \"A interpretação do formato 'GIF' ainda não está habilitada. Por favor, digite um texto ou envie um áudio para uma interação mais eficaz.\",\n    'chatId':msg.params.session_id,\n    'type': \"message\",\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 840,
+        "wires": [
+            [
+                "b2d38605016ed26b",
+                "b95bddaa626a2eda"
+            ]
+        ]
+    },
+    {
+        "id": "b2d38605016ed26b",
+        "type": "debug",
+        "z": "5062b4c5955bac93",
+        "g": "fea1bdc9db113452",
+        "name": "debug 20",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "b95bddaa626a2eda",
+        "type": "telegram sender",
+        "z": "5062b4c5955bac93",
+        "g": "fea1bdc9db113452",
+        "name": "Sender 5 - GIF",
+        "bot": "c06e6ad61923ed56",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1120,
+        "y": 840,
+        "wires": [
+            [
+                "43b97c4e10d2895f"
+            ]
+        ]
+    },
+    {
+        "id": "cc058631829933e1",
+        "type": "debug",
+        "z": "5062b4c5955bac93",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 380,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "43b97c4e10d2895f",
+        "type": "debug",
+        "z": "5062b4c5955bac93",
+        "g": "fea1bdc9db113452",
+        "name": "debug 21",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1180,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "11aafa4b6fcac80d",
+        "type": "debug",
+        "z": "5062b4c5955bac93",
+        "g": "8ccae9a24801bc17",
+        "name": "debug 23",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1180,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "e519c5b2c7c0f0de",
+        "type": "watson-text-to-speech",
+        "z": "5062b4c5955bac93",
+        "g": "30f4c5ac3a3cbe71",
+        "name": "Transf. texto em audio",
+        "lang": "pt-BR",
+        "langhidden": "pt-BR",
+        "langcustom": "NoCustomisationSetting",
+        "langcustomhidden": "",
+        "voice": "pt-BR_IsabelaVoice",
+        "voicehidden": "pt-BR_IsabelaVoice",
+        "format": "audio/wav",
+        "password": "",
+        "apikey": "qhbar2OxcVc_xtC-FRcFOFTHCbSNuDUMjUPMCtJ19jyd",
+        "payload-response": true,
+        "service-endpoint": "https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/66c0d986-ff45-4e3f-b26e-b1321bcb1d44",
+        "x": 2200,
+        "y": 480,
+        "wires": [
+            [
+                "435cc1353dfedf55",
+                "4565cbcce4bddac2"
+            ]
+        ]
+    },
+    {
+        "id": "cf256b42606e8a11",
+        "type": "debug",
+        "z": "5062b4c5955bac93",
+        "g": "30f4c5ac3a3cbe71",
+        "name": "debug 13",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2600,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "c06e6ad61923ed56",
+        "type": "telegram bot",
+        "botname": "Tokito_save_bot",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksprotocol": "socks5",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    }
+]
