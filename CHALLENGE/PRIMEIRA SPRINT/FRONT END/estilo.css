@@ -1,0 +1,205 @@
+header {
+    background-color: #6e6ecd;
+    width: 1510px;
+    height: 150px;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+#wrapper {
+    background-color: #f2f4f5;
+    width: 1550px;
+    height: 1000px;
+}
+
+.voltar {
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color:#050570;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+#inicial{
+    text-align: left;
+    float: left;
+}
+
+.icone-voltar a:hover {
+    background: #0022ff;
+    border-left: 2px solid #abc;
+    color:#000;
+}
+
+#top{
+    text-decoration: none;
+    background-color: #46bbed;
+    padding: 5px;
+    text-align: right;
+}
+
+.content a{
+    text-decoration: none;  
+    color:#fff;
+}
+
+.content a:hover{
+    background: #0022ff;
+    color:#000
+}
+
+nav {
+    background-color:  #050570;
+    width: 1550px;
+    height: 180px;  
+}
+
+main{
+    background-color: #dedeeb;
+    width: 700px;
+    height: 500px;
+    margin: 20px 60px 20px 20px;
+    border-radius: 10px;
+    float:left;
+}
+
+aside {
+    /*background-color: #350446;*/
+    width: 700px;
+    height: 500px;
+    margin: 20px;
+    border-radius: 10px;
+    float:left;
+}
+
+.img-aside {
+    flex-direction: column; /* Para alinhar verticalmente também, se desejado */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+ /* Isso garante que o elemento ocupe a altura total da janela do navegador. Ajuste conforme necessário. */
+}
+
+.elemento {
+    margin: 10px;
+}
+
+h1 {
+    color: #ececf0;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+h2 {
+    color: #09099b;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    margin: 20px;
+}
+
+h3 {
+    color: #09099b;
+    font-family: var(--pbc-g-font-display);
+    margin: 20px;
+}
+
+h4 {
+    color: #ffffff;
+    text-align: right;
+    margin:20px;
+}
+
+p {
+    color: #040241;
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.menuH{
+    list-style-type: none;
+    width: 1490px;
+    height:60px;
+    border: 1px solid #000;
+    border-bottom: 0; 
+    background: #00d5ff;
+    margin: 30px 30px;
+    padding: 0;
+}
+
+.menuH li{
+    width: 186px;
+    line-height: 30px;
+    font-size: 18px;
+    float:left;
+    text-align: left;
+}
+
+.menuH li:last-child{
+    border-right: 0;
+}
+
+.menuH li a{
+    text-decoration: none;
+    border-left:1px solid #0b203f;
+    border-bottom:1px solid #0b203f;
+    padding-left: 15px;
+    display: block;
+    color:#fff
+}
+
+.menuH li a:hover{
+    background: #0022ff;
+    border-left: 5px solid #abc;
+    color:#000
+}
+
+.cloud {
+    width: 556px;
+    height: 459px;
+}
+#mulesoft, {
+    width: 500px;
+    height: 475px;
+    padding-left: 50px;
+}
+#marketing, #slack, #peq-empresas, #sustentabilidade{
+    padding: 60px;
+    width: 500px;
+    height: 475px;
+}
+#commerce, #vendas, #customer360, #tableau, #plataforma, #pagina-principal, #gatner, #clientes {
+    width: 700px;
+    height: 500px;
+}
+#organograma{
+    width: 1168px;
+    height: 762px;
+    align-items: center;
+    border: 2px solid #7a7aa3;
+    padding: 10px;
+}
+
+#claudio, #caua, #sara{
+    width: 426px;
+    height: 470px;
+    margin: 40px 40px 5px 40px;
+    border: 5px solid #706cbd;
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+}
+footer{
+    text-align: center;
+    
+}.claudio, .caua, .sara{
+    width: 426px;
+    height: 120px;
+    margin: 5px 50px 5px 40px;
+    text-align: center;
+    float: left;
+}
