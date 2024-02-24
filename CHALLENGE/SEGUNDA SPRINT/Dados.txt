@@ -1,0 +1,22 @@
+Integrantes:
+RM - 553472 - Claudio Bispo
+RM - 553093 - Caua Ferrigoli
+Rm - 554021 - Sara Ingrid
+
+Acessos:
+API: YqqGTY1pxYgPQZYVDwHt2zcJ0qUT3nislRVJDjutJplS
+URL:https://api.us-east.assistant.watson.cloud.ibm.com/instances/e0771cd9-c1d2-4b8e-b057-f554aa3c898e
+
+Watson:
+Assistant name: Sales force bot
+Assistant ID: 742a7fa8-273d-4074-86a2-4e30f2830c70
+URL:https://api.us-east.assistant.watson.cloud.ibm.com/v2/assistants/742a7fa8-273d-4074-86a2-4e30f2830c70/sessions 
+
+TTS:
+API: TnUcB2uO15M4TMNQSj_NQnPwwGG_qP_7iQRpTzrKIwh9
+URL: https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/3c52d93e-e3e4-4344-9dd1-ba2fd8520811
+
+
+STT:
+API: fR6Ip2YoIT6g5BILmqY89Ey9wvlcELc9Y-V1CNCttwDL
+URL: https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/bfcc14fb-7741-4c32-aaa3-9651749530c9
