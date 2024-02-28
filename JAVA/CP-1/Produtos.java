@@ -2,12 +2,34 @@ package projeto;
 
 import java.util.Scanner;
 
+/*
+ * Meu processo vai iniciar com o cadastrado dos produtos, onde vamos conseguir consultar
+ * cada produto cadastrado, lista o item individual ou em grupo
+ *  Alterar alguma informação de produto
+ *  Excluir um produto quando não for mais vender na loja
+ *  Depois vamos abrir a comanda, sendo limitado até 10 nesse momento
+ *  Adicionar um produto na comanda pelo ID ou nome
+ *  Consultar a comanda para saber se possui item ou não
+ *  Limpar a comomanda quando tiver suja
+ *  Excluir uma comanda quando for aberta de forma indevida
+ *  Realizar o pagamento que será ver o produto, quantidade e valor final.
+ * 
+ */
+
+/*
+ * 
+ * Classe criada para gerar ID, nome e preço dos produtos.
+ * Não terei métodos dentro dessa classe.
+ * Será criado os métodos na classe Gerenciador de produtos.
+ * 
+ */
+
 public class Produtos {
 	
 	// Atributos
 	private static int contar = 1; // Para criação do novo produto de forma automática
 	private int id; // ID do meu produto
-	private String nome; // Nome do produto conforme o ID
+	private String nome; 
 	private Double preco; // Preco unitário de cada produto.
 	
 	// Construtor

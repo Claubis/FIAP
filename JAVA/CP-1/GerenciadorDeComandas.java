@@ -3,6 +3,33 @@ package projeto;
 import java.util.Scanner;
 import java.util.ArrayList;
 
+/*
+ * Meu processo vai iniciar com o cadastrado dos produtos, onde vamos conseguir consultar
+ * cada produto cadastrado, lista o item individual ou em grupo
+ *  Alterar alguma informação de produto
+ *  Excluir um produto quando não for mais vender na loja
+ *  Depois vamos abrir a comanda, sendo limitado até 10 nesse momento
+ *  Adicionar um produto na comanda pelo ID ou nome
+ *  Consultar a comanda para saber se possui item ou não
+ *  Limpar a comomanda quando tiver suja
+ *  Excluir uma comanda quando for aberta de forma indevida
+ *  Realizar o pagamento que será ver o produto, quantidade e valor final.
+ * 
+ */
+
+/*
+ * Métodos que serão criados:
+ * abrirComanda: Criar uma comanda que comece em 0, o usuário quem vai definir qual será o número. Limitado ate 10.
+ * listarItensDaComanda: Vai mostrar todos os itens dentro da comanda
+ * adicionarProdutoNaComanda:Inserir produtos na comanda de forma individual
+ * pagarComanda: Mostrar o valor para pagamento.
+ * limparComanda: Apagar os dados dentro da comanda.
+ * excluirComanda: Pagar a comanda do registro, sendo ID e produtos.
+ * 
+ */
+
+
+
 public class GerenciadorDeComandas {
 	private ArrayList<Produtos> produtosCadastrados;
 	private ArrayList<Comanda> comandas;
@@ -99,9 +126,10 @@ public class GerenciadorDeComandas {
         Comanda comanda = comandas.get(idComanda);
         comanda.adicionarItem(produtoEncontrado, quantidade);
 
-        System.out.println("Produto adicionado à comanda.\n");
+        System.out.println("Produto adicionado à comanda. Por favor, seguir para a etapa 11 se quiser consultar o valor da comanda ou 12 para realizar o pagamento. \n");
         System.out.println("------------------------------------------------ \n");
-        Menu.menu();
+        
+        //Menu.menu();
     }
     
     public void pagarComanda() {
@@ -128,12 +156,15 @@ public class GerenciadorDeComandas {
                     " - Valor unitário: " + item.getProduto().getPreco() + " - Valor total: " + item.calcularTotalItem());
             totalComanda += item.calcularTotalItem();
         }
+        
+        // Definir o valor final da comanda para eu usar na classe Caixa
+        comanda.setValorFinalComanda(totalComanda);
 
         System.out.println("Valor total da comanda: " + totalComanda + "\n");
-     
+    
         
         
-    } 
+    }
     
     public void limparComanda(int idComandaLimpar) {
     	

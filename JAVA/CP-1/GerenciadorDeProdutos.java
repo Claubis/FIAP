@@ -1,6 +1,32 @@
 package projeto;
 
 import java.util.ArrayList;
+
+/*
+ * Meu processo vai iniciar com o cadastrado dos produtos, onde vamos conseguir consultar
+ * cada produto cadastrado, lista o item individual ou em grupo
+ *  Alterar alguma informação de produto
+ *  Excluir um produto quando não for mais vender na loja
+ *  Depois vamos abrir a comanda, sendo limitado até 10 nesse momento
+ *  Adicionar um produto na comanda pelo ID ou nome
+ *  Consultar a comanda para saber se possui item ou não
+ *  Limpar a comomanda quando tiver suja
+ *  Excluir uma comanda quando for aberta de forma indevida
+ *  Realizar o pagamento que será ver o produto, quantidade e valor final.
+ * 
+ */
+
+/*
+ * Métodos que terei aqui:
+ * cadastrarProduto: Para registrar no nosso banco um produto e seu valor
+ * consultarProduto: Para avaliar o produto de forma individual, sendo a consulta por nome ou ID
+ * consultarListaProdutos: Saber quais são os produtos na lista, vai mostrar 100% dos casos cadastrados.
+ * alterarProduto: alterar dados do produto de forma individual
+ * removerProduto: Remover um produto da lista que foi cadastrado de forma indevida
+ * consultarProdutoComanda: Consultar os produtos na comanda.
+ */
+
+
 import java.util.Scanner;
 
 public class GerenciadorDeProdutos {
@@ -24,8 +50,10 @@ public class GerenciadorDeProdutos {
             
             if (nome.equals("0")) {
                 // Se o usuário digitou "0", definimos o número como 0
+            	System.out.println("Você definiu em sair do processo de cadastro! \n");
+            	System.out.println("------------------------------------------------ \n");
                 int numero = 0;
-                break; // Sai do loop
+                break; 
             } else {
                 // Se não for "0", convertemos a entrada para um número inteiro
                 String numero = nome;
@@ -33,7 +61,7 @@ public class GerenciadorDeProdutos {
             
             System.out.println("Digite o preço do produto:\n");
             double preco = input.nextDouble();
-            input.nextLine(); // Limpar o buffer do scanner
+            input.nextLine();
 
             Produtos produtoNovo = new Produtos(nome, preco);
             produtosCadastrados.add(produtoNovo);
@@ -57,7 +85,7 @@ public class GerenciadorDeProdutos {
         System.out.println("1. Nome do produto");
         System.out.println("2. Id do produto");
         int opcao = scanner.nextInt();
-        scanner.nextLine(); // Consumindo a quebra de linha
+        scanner.nextLine();
 
         switch (opcao) {
             case 1:
@@ -101,7 +129,7 @@ public class GerenciadorDeProdutos {
                 break;
         }
         System.out.println("------------------------------------------------ \n");
-        return null; // Retornando null fora do switch
+        return null;
     }
 
     
@@ -134,7 +162,7 @@ public class GerenciadorDeProdutos {
             System.out.println("1. Nome do produto");
             System.out.println("2. Preço do produto");
             int escolha = scanner.nextInt();
-            scanner.nextLine(); // Limpa o buffer do scanner
+            scanner.nextLine();
 
             switch (escolha) {
                 case 1:
@@ -181,7 +209,7 @@ public class GerenciadorDeProdutos {
                 produtosCadastrados.remove(i);
                 System.out.println("Produto\nId: " + produto.getId() + "\nnome: " + produto.getNome() +  "\nFoi removido com sucesso. \n");
                 produtoRemovido = true;
-                break; // Encerra o loop após remover o produto
+                break;
             }
         }
         if (!produtoRemovido) {
